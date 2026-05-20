@@ -42,13 +42,15 @@
 ◆ commander-genius : Unofficial, an open-source interpreter for the Commander Keen (1-6, Dreams) and Cosmos Cosmic series.
 ◆ copyq : Unofficial, an advanced clipboard manager with powerful editing and scripting features.
 ◆ corsixth-enhanced : Unofficial, open source clone of Theme Hospital.
+◆ crispy-doom : Unofficial, a limit-removing enhanced-resolution Doom source port based on Chocolate Doom.
+◆ cromagrally-enhanced : Unofficial, the wildest racing game since man invented the wheel!
 ◆ crossmobile : Create native iOS/Android/Windows apps in Java.
 ◆ cuberite : Unofficial, a lightweight, fast and extensible game server for Minecraft.
 ◆ cursor-cli : Unofficial, AI-assisted development CLI tool.
 ◆ d1x-rebirth : Unofficial, a source port of the Descent engine.
 ◆ d2x-rebirth : Unofficial, a source port of the Descent 2 engine.
 ◆ darkplaces : Unofficial, the DarkPlaces Quake engine, created by LadyHavoc.
-◆ dealers-choice : Multiplayer Stud and Draw Poker game.
+◆ dealers-choice : A cross-platform, networked multiplayer poker game supporting draw, stud, and community-card variants, including Texas.
 ◆ dethrace : Unofficial, reverse engineering the 1997 game "Carmageddon".
 ◆ devilutionx-enhanced : Unofficial, Diablo build for modern operating systems.
 ◆ dhewm3 : Unofficial, doom 3 GPL source port.
@@ -75,6 +77,11 @@
 ◆ featherpad : Unofficial. A lightweight Qt plain-text editor.
 ◆ ffmpeg : Unofficial, A complete, cross-platform solution to record, convert and stream audio and video.
 ◆ figma-linux : First interface design tool based in the browser (graphics).
+◆ firefox : Fast, powerful and extensible Web Browser, Stable.
+◆ firefox-beta : Fast, powerful and extensible Web Browser, Beta Edition.
+◆ firefox-devedition : Fast, powerful and extensible Web Browser, Developer Edition.
+◆ firefox-esr : Fast, powerful and extensible Web Browser, ESR Edition.
+◆ firefox-nightly : Fast, powerful and extensible Web Browser, Nightly Edition.
 ◆ floorp : Floorp Web Browser, the most Advanced and Fastest Firefox derivative.
 ◆ flow-browser : A modern, privacy-focused browser with a minimalistic design.
 ◆ flycast-enhanced : Unofficial, A Sega Dreamcast, Naomi, Naomi 2 and Atomiswave emulator.
@@ -83,6 +90,7 @@
 ◆ fooyin : Unofficial, a customisable music player.
 ◆ frame : Fast FFmpeg GUI.
 ◆ freac : fre:ac, free audio converter and CD ripper for various encoders.
+◆ freecad-weekly : Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler.
 ◆ freetube-enhanced : Unofficial, An Open Source YouTube app for privacy.
 ◆ fresh : Text editor for your terminal: easy, powerful and fast.
 ◆ fretboard : Unofficial. Application which helps you find your favorite guitar chord.
@@ -131,6 +139,7 @@
 ◆ kaffeine : Unofficial, Media player with support for digital television (DVB-C/S/S2/T, ATSC, CI/CAM).
 ◆ keypunch : Unofficial, keyboard writing speed test application.
 ◆ kid3 : Unofficial, efficient audio tagger that supports a large variety of file formats.
+◆ knights : Unofficial, KDE's chess frontend.
 ◆ kronos : Unofficial, Sega Saturn emulator.
 ◆ lapce : Lightning-fast and Powerful Code Editor written in Rust.
 ◆ lba2-classic-community : Unofficial, a community fork for evolving and modernizing LBA2 source port.
@@ -154,6 +163,7 @@
 ◆ nestopia : Unofficial, Cross-platform Nestopia NES emulator core with a GUI.
 ◆ neverball : Unofficial, tilt the floor to roll a ball through an obstacle course before time runs out.
 ◆ newsflash : Unofficial. RSS reader with support for local and web RSS feed.
+◆ nexen : Multi-system emulator (NES, SNES, GB, GBA, PCE, SMS/GG, WS).
 ◆ nexis : Linux & macOS system optimizer and monitor. Qt6 fork of Stacer with GPU monitoring, dark/light themes, and active maintenance.
 ◆ nomacs : Unofficial, nomacs is a free, open source image viewer, which supports multiple platforms.
 ◆ nugget-doom-enhanced : Unofficial, a Doom source port forked from Woof! with additional features.
@@ -188,16 +198,20 @@
 ◆ play-enhanced : Unofficial, a PlayStation2 emulator.
 ◆ pokemmo : Unofficial, MMO based on the Pokémon Universe.
 ◆ portable2appimage : Convert standalone, self-contained portable apps into AppImage packages.
+◆ postal : Unofficial, Postal a quirky FPS shooter.
 ◆ prey2006 : Unofficial, Prey 2006 SDK integrated with Doom 3 GPL release.
+◆ prismlauncher-enhanced : Unofficial, a custom launcher for Minecraft that allows you to easily manage multiple installations of Minecraft at once (Fork of MultiMC).
 ◆ protocol_10 : A mod decompiler for frosty tool suite.
 ◆ pyglossary : Unofficial, A tool for converting dictionary files aka glossaries.
 ◆ python : AppImage distributions of Python, an interactive high-level object-oriented language.
 ◆ qarma : Unofficial, Qarma is a tool to create dialog boxes, based on Qt. It's a clone of Zenity.
+◆ qbittorrent-enhanced : Unofficial qBittorrent Enhanced, based on qBittorrent.
 ◆ qemu : Unofficial, a generic and open source machine & userspace emulator and virtualizer.
 ◆ qmmp : Unofficial, Qt-based multimedia player.
 ◆ qmplay2-enhanced : Unofficial, a video and audio player which can play most formats and codecs.
 ◆ qtcreator : Unofficial, lightweight, cross-platform integrated development environment.
 ◆ qterminal : Unofficial. A lightweight Qt terminal emulator based on QTermWidget.
+◆ quantumlauncher-enhanced : Unofficial, a simple, powerful Minecraft launcher.
 ◆ raptor : Unofficial, reversed-engineered source port from Raptor Call Of The Shadows.
 ◆ raspberry-pi-imager : The home of Raspberry Pi Imager, a user-friendly tool for creating bootable media for Raspberry Pi devices. Desktop edition.
 ◆ raspberry-pi-imager-cli : The home of Raspberry Pi Imager, a user-friendly tool for creating bootable media for Raspberry Pi devices. CLI edition.
@@ -218,6 +232,7 @@
 ◆ ruffle : A Flash Player emulator written in Rust.
 ◆ rvgl : Unofficial, a cross-platform rewrite/port of Re-Volt.
 ◆ ryujinx : An open-source Nintendo Switch emulator, originally created by gdkchan, written in C#.
+◆ ryujinx-canary : An open-source Nintendo Switch emulator, originally created by gdkchan, written in C# (Canary builds).
 ◆ sas : Tool to sandbox AppImages with bubblewrap easily.
 ◆ satty : Unofficial, a screenshot annotation tool.
 ◆ sayonara-player-enhanced : Unofficial, a small, clear and fast audio player.
@@ -234,6 +249,7 @@
 ◆ sonic-3-air : Unofficial, Source and data to build Sonic 3 A.I.R. (Angel Island Revisited) and the Oxygen Engine.
 ◆ sonic-mania-decompilation : Unofficial, a complete decompilation of Sonic Mania (2017).
 ◆ spaghettikart-enhanced : Unofficial, Mario Kart 64 PC game Port.
+◆ sponge-hash-aes256 : A sponge-based secure hash function that uses AES-256 as its internal PRF.
 ◆ srb2 : Unofficial, a 3D Sonic the Hedgehog fangame based on a modified version of Doom Legacy.
 ◆ starfox64recomp : Unofficial, a native port of Starfox 64, statically recompiled.
 ◆ stella : Unofficial, A multi-platform Atari 2600 Emulator.
@@ -244,12 +260,15 @@
 ◆ supermodel : Unofficial, Sega Model 3 arcade emulator.
 ◆ supertuxkart : Free kart racing game focused on Fun!
 ◆ supertuxkart-dev : Free kart racing game focused on Fun! Pre-release.
+◆ syncthing : Open Source Continuous File Synchronization.
 ◆ system-monitoring-center : Unofficial. Multi-featured system monitor.
 ◆ tagger : Unofficial. Simple audio tagger with support for various audio formats.
 ◆ taisei-project : Unofficial, A free and open-source Touhou Project fangame.
 ◆ tamga : A 3D sculpting, sketching, and stylized rendering app.
 ◆ tangent : A clean and powerful open source notes app.
 ◆ taradino : Unofficial, SDL2 port of Rise of the Triad.
+◆ telegram : Unofficial, telegram Desktop messaging app.
+◆ tev : High dynamic range (HDR) image viewer for people who care about colors.
 ◆ tokodon : Unofficial, a modern client for Mastodon and other decentralized servers that implement its API (such as Pixelfed).
 ◆ trelby : Unofficial, Trelby is simple, fast and elegantly laid out to make screenwriting simple.
 ◆ tuxfootball : Unofficial, is a great 2D football game for Windows and Linux.

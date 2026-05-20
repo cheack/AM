@@ -75,7 +75,7 @@ _about_status() {
 
 _about_description_fit() {
 	if [ -n "$TERM" ]; then
-		fold -sw "$(("$(tput cols)"-"3"))" | grep -vi "<.*>\|>[a-z]" | sed 's/^ //g; s/^/ /g' | awk '!NF && !a++; NF {print;a=0}'  | sed '${/^$/d}; ${/^ $/d}'
+		fold -sw "$(($(tput cols)-3))" | grep -vi "<.*>\|>[a-z]" | sed 's/^ //g; s/^/ /g' | awk '!NF && !a++; NF {print;a=0}'  | sed '${/^$/d}; ${/^ $/d}'
 	else
 		fold -sw 78 | grep -vi "<.*>\|>[a-z]" | sed 's/^ //g; s/^/ /g' | awk '!NF && !a++; NF {print;a=0}'  | sed '${/^$/d}; ${/^ $/d}'
 	fi
@@ -96,7 +96,7 @@ _about_description_for_third_party() {
 			readme_source="${!tprepo_readme}"
 			tprepo_repo="${tp_extension}_repo"
 			repo_source="${!tprepo_repo}"
-			third_party_readme=$(curl -Ls "$readme_source")
+			third_party_readme=$(_use_online_reading_tool "$readme_source")
 			appname_arg=$(echo "$third_party_readme" 2>/dev/null | grep -i "^| $appname | .* | http.* | http.* | .* |$" | tr '|' '\n' | cut -c 2- | grep .)
 			about_description=$(echo "$appname_arg" | awk -F: "NR==$awk_description")
 			about_site=$(echo "$appname_arg" | awk -F: "NR==$awk_site")
@@ -133,7 +133,7 @@ _about_description_for_third_party() {
 _about_description() {
 	AMCATALOGUEMARKDOWNS="${AMCATALOGUEMARKDOWNS:-https://portable-linux-apps.github.io/apps}"
 	markdown_url="$AMCATALOGUEMARKDOWNS/$arg.md"
-	markdown_page=$(curl -Ls "$markdown_url")
+	markdown_page=$(_use_online_reading_tool "$markdown_url")
 	if echo "$markdown_page" | grep -q "^#"; then
 		markdown_page=$(echo "$markdown_page" | grep -v -- "^#\|^.*| \[Applications\|^.*| -\|^.*!\[")
 		echo "$markdown_page" | _about_description_fit
@@ -206,7 +206,7 @@ _files_header() {
 	APPSNUMB="$FILES_NUMBER"
 	if grep -q 'usr/local/lib' "$APPSPATH"/*/remove 2>/dev/null; then
 		LIBNUMB=$(grep -l "usr/local/lib" "$APPSPATH"/*/remove | wc -l | sed 's/ //g')
-		APPSNUMB=$(("$APPSNUMB"-"$LIBNUMB"))
+		APPSNUMB=$((APPSNUMB - LIBNUMB))
 	fi
 	if [ "$APPSNUMB" = 1 ]; then
 		APPSMESSAGE=$(echo $"YOU HAVE INSTALLED $APPSNUMB PROGRAM")
@@ -340,6 +340,16 @@ _files_db() {
 }
 
 # CREATE THE TABLE
+_du_bytes() {
+	_output=$(du -sb "$1")
+	_status=$?
+	if [ $_status -eq 64 ] || [ $_status -ne 0 ]; then
+		du -sk "$1" | awk '{print $1 * 1024}'
+	else
+		echo "$_output"
+	fi
+}
+
 _files() {
 	cd "$APPSPATH" || exit 1
 	# Compute bytes for installed apps once to avoid repeated du calls and rescanning large trees.
@@ -395,7 +405,7 @@ _files() {
 			(
 				[ -z "$path" ] && exit 0
 				# Measure entire tree for this app (includes data dirs like Steam's)
-				bytes=$(du -sb "$path" 2>/dev/null | awk '{print $1}' || true)
+				bytes=$(_du_bytes "$path" 2>/dev/null | awk '{print $1}' || true)
 				if echo "$bytes" | grep -qE '^[0-9]+$'; then
 					printf "%s\t%s\n" "$bytes" "$path" >>"$TMPDU"
 				else
@@ -563,7 +573,7 @@ _files_list_archived_and_obsolete_apps() {
 }
 
 _files_notify_archived_and_obsolete_apps() {
-	if grep -q "ARCHIVED\|, of " "$AMCACHEDIR"/version-args 2>/dev/null; then
+	if grep -q "ARCHIVED\|, of " "$AMCACHEDIR"/version-args 2>/dev/null && grep -q "\*\*" "$AMCACHEDIR"/files-args-* 2>/dev/null; then
 		archived_and_obsolete_apps=$(_files_list_archived_and_obsolete_apps &)
 		wait
 		archived_and_obsolete_apps_number=$(echo "$archived_and_obsolete_apps" | wc -l | sed 's/ //g')
@@ -584,15 +594,15 @@ _files_notify_archived_and_obsolete_apps() {
 _files_total_size() {
 	printf "\n"
 	if command -v aisap >/dev/null 2>&1 && grep -qe "appimage🔒" "$AMCACHEDIR"/files* && [ -n "$APPLOCKED" ]; then
-		printf $'%s\n\n' " AppImages with 🔒 are sandboxed with aisap, versions with 🔒 are locked"
+		printf $'%s\n\n' $" AppImages with 🔒 are sandboxed with aisap, versions with 🔒 are locked"
 	elif command -v aisap >/dev/null 2>&1 && grep -qe "appimage🔒" "$AMCACHEDIR"/files*; then
-		printf $'%s\n\n' " AppImages with 🔒 are sandboxed with aisap"
+		printf $'%s\n\n' $" AppImages with 🔒 are sandboxed with aisap"
 	elif command -v sas >/dev/null 2>&1 && grep -qe "appimage🔒" "$AMCACHEDIR"/files* && [ -n "$APPLOCKED" ]; then
-		printf $'%s\n\n' " AppImages with 🔒 are sandboxed with sas, versions with 🔒 are locked"
+		printf $'%s\n\n' $" AppImages with 🔒 are sandboxed with sas, versions with 🔒 are locked"
 	elif command -v sas >/dev/null 2>&1 && grep -qe "appimage🔒" "$AMCACHEDIR"/files*; then
-		printf $'%s\n\n' " AppImages with 🔒 are sandboxed with sas"
+		printf $'%s\n\n' $" AppImages with 🔒 are sandboxed with sas"
 	elif [ -n "$APPLOCKED" ]; then
-		printf $'%s\n\n' " Versions with 🔒 are locked"
+		printf $'%s\n\n' $" Versions with 🔒 are locked"
 	fi
 	APPLOCKED=""
 	INSTALLED_APPS_PLAN=$(echo "$INSTALLED_APPS_PATHS" | xargs)
@@ -604,7 +614,7 @@ _files_total_size() {
 			TOTAL_BYTES=$(echo "$FILES_SIZES_BYTES_CONTENT" | awk '{s+=$4}END{print s+0}')
 		else
 			# Fallback: sum exact bytes with du -sb (may be slower)
-			TOTAL_BYTES=$(du -sb $INSTALLED_APPS_PLAN 2>/dev/null | awk '{s+=$1}END{print s+0}')
+			TOTAL_BYTES=$(_du_bytes $INSTALLED_APPS_PLAN 2>/dev/null | awk '{s+=$1}END{print s+0}')
 		fi
 
 		# Format total using _hr_bytes (returns e.g. "123.00G" / "301.40M" / "199.00K" / "5.00B")
@@ -721,7 +731,7 @@ _pretty_list_compat() {
 #functions to create and handle lists
 _list() {
 	# Check if github.com is online, if not, the function will read the offline list
-	wget -q --tries=10 --timeout=20 --spider https://github.com && _completion_lists
+	_online_check_tool && _completion_lists
 	# Check the number of installed apps and libraries
 	_determine_args
 	LIBNUMBER=$(grep -q "usr/local/lib" "$APPSPATH"/*/remove 2>/dev/null | wc -l | sed 's/ //g')
@@ -732,10 +742,10 @@ _list() {
 			ITEMSNUMBER=$(echo "$ARGPATHS" | sed 's:.*/::' | sort -u | wc -l | sed 's/ //g')
 		fi
 		if test -f /opt/am/remove; then
-			ITEMSNUMBER=$(("$ITEMSNUMBER"-1))
+			ITEMSNUMBER=$((ITEMSNUMBER - 1))
 		fi
 	fi
-	APPSNUMBER=$(("$ITEMSNUMBER" - "$LIBNUMBER"))
+	APPSNUMBER=$((ITEMSNUMBER - LIBNUMBER))
 	# Determine the number of available apps from the list
 	AVAILABLE_APPS_NUMBER=$(grep -v "ffwa-\|\"kdegames\"\|\"kdeutils\"\|\"node\"\|\"platform-tools\"" "$AMDATADIR/$ARCH-apps" | grep -e "^◆.*$" -c)
 	if ! test -f "$AMDATADIR/$ARCH-appimages"; then
@@ -756,12 +766,23 @@ _list() {
 	for t in $third_party_lists; do
 		[ ! -f "$AMDATADIR/$ARCH-$t" ] && _online_check && _sync_third_party_lists && _completion_lists
 	done
+	wait
 	tp_lists=$(find "$AMDATADIR" -type f -name "$ARCH-*" | grep -v "appimages\|portable\|apps")
 	for t in $tp_lists; do
-		[ -z "$TP_LISTS" ] && TP_LISTS=$(sort -u "$t") || TP_LISTS="$TP_LISTS\n$(sort -u "$t")"
+		if [ -z "$TP_LISTS" ]; then
+			TP_LISTS=$(sort -u "$t")
+		else
+			TP_LISTS="$TP_LISTS\n$(sort -u "$t")"
+		fi
 	done
-	[ -n "$third_party_lists" ] && AVAILABLE_THIRD_PARTY_NUMBER=$(printf "%b" "$TP_LISTS" | grep -Eo "^◆ .* : " | sort -u | grep -e "^◆.*$" -c)
-	[ -n "$AVAILABLE_THIRD_PARTY_NUMBER" ] && AVAILABLE_TOTAL_APPS_NUMBER=$(("$AVAILABLE_APPS_NUMBER" + "$AVAILABLE_THIRD_PARTY_NUMBER")) || AVAILABLE_TOTAL_APPS_NUMBER="$AVAILABLE_APPS_NUMBER"
+	if [ -n "$third_party_lists" ]; then
+		AVAILABLE_THIRD_PARTY_NUMBER=$(printf "%b" "$TP_LISTS" | grep -Eo "^◆ .* : " | sort -u | grep -e "^◆.*$" -c)
+	fi
+	if [ -n "$AVAILABLE_THIRD_PARTY_NUMBER" ]; then
+		AVAILABLE_TOTAL_APPS_NUMBER=$((AVAILABLE_APPS_NUMBER + AVAILABLE_THIRD_PARTY_NUMBER))
+	else
+		AVAILABLE_TOTAL_APPS_NUMBER="$AVAILABLE_APPS_NUMBER"
+	fi
 	# Generate a list of the installed apps with version
 	[ ! -f "$AMCACHEDIR"/version-args ] && _check_version
 	if [ -n "$APPMAN_ITEMS" ]; then
@@ -862,7 +883,7 @@ case "$1" in
 			printf "%b\n %b\n%b\n" "$DIVIDING_LINE" "$SUBJECT" "$DIVIDING_LINE"
 			;;
 		'--all')
-			wget -q --tries=10 --timeout=20 --spider https://github.com && _sync_databases 1>/dev/null
+			_online_check_tool && _sync_databases 1>/dev/null
 			_list
 			SUBJECT=$(echo $"$AVAILABLE_TOTAL_APPS_NUMBER programs available in all supported databases")
 			LIST=$(sort -u "$AMDATADIR"/"$ARCH"-* | grep "^◆ .*$" 2>/dev/null | _pretty_list)
@@ -870,7 +891,7 @@ case "$1" in
 			printf "%b\n %b\n%b\n" "$DIVIDING_LINE" "$SUBJECT" "$DIVIDING_LINE"
 			;;
 		'--appimages')
-			wget -q --tries=10 --timeout=20 --spider https://github.com && _sync_appimages_list
+			_online_check_tool && _sync_appimages_list
 			_list
 			SUBJECT=$(echo $"$AVAILABLE_APPIMAGES_NUMBER AppImages available in the \"AM\" database")
 			LIST=$(sort -u "$AMDATADIR"/"$ARCH"-appimages | grep "^◆ .*$" 2>/dev/null | _pretty_list)
@@ -878,7 +899,7 @@ case "$1" in
 			printf "%b\n %b\n%b\n" "$DIVIDING_LINE" "$SUBJECT" "$DIVIDING_LINE"
 			;;
 		'--portable')
-			wget -q --tries=10 --timeout=20 --spider https://github.com && _sync_portable_list
+			_online_check_tool && _sync_portable_list
 			_list
 			SUBJECT=$(echo $"$AVAILABLE_PORTABLE_NUMBER portable programs available in the \"AM\" database")
 			LIST=$(sort -u "$AMDATADIR"/"$ARCH"-portable | grep "^◆ .*$" 2>/dev/null | _pretty_list)
@@ -887,7 +908,7 @@ case "$1" in
 			;;
 		*)	
 			if echo "$third_party_flags" | tr ' ' '\n' | grep -q -- "$2$"; then
-				wget -q --tries=10 --timeout=20 --spider https://github.com && _sync_third_party_lists 2>/dev/null
+				_online_check_tool && _sync_third_party_lists 2>/dev/null
 				_list
 				tplist_name=$(echo "$2" | tr '-' '\n ' | grep .)
 				[ -f "$AMDATADIR"/"$ARCH"-"$tplist_name" ] && TPNUMBER_HERE=$(sort -u "$AMDATADIR"/"$ARCH"-"$tplist_name" | grep -Eo "^◆ .* : " | uniq | wc -l)
@@ -913,7 +934,7 @@ case "$1" in
 			echo ""
 			exit 1
 		fi
-		wget -q --tries=10 --timeout=20 --spider https://github.com && _completion_lists
+		_online_check_tool && _completion_lists
 		shift
 		if [ "$1" = --pkg ]; then
 			shift
@@ -924,19 +945,19 @@ case "$1" in
 		elif [ "$1" = --all ]; then
 			shift
 			query_all="1"
-			wget -q --tries=10 --timeout=20 --spider https://github.com && _sync_databases 1>/dev/null
+			_online_check_tool && _sync_databases 1>/dev/null
 			_query_lists "$*"
 			wait
 			sort -u  "$AMDATADIR"/"$ARCH"-* 2>/dev/null | grep "^◆ .*$" 2>/dev/null | _find_no_order "$@" | _pretty_list_compat
 		elif [ "$1" = --appimages ]; then
 			shift
-			wget -q --tries=10 --timeout=20 --spider https://github.com && _sync_appimages_list
+			_online_check_tool && _sync_appimages_list
 			_query_lists "$*"
 			wait
 			sort -u "$AMDATADIR/$ARCH-appimages" 2>/dev/null | grep "^◆ .*$" 2>/dev/null | _find_no_order "$@" | _pretty_list_compat
 		elif [ "$1" = --portable ]; then
 			shift
-			wget -q --tries=10 --timeout=20 --spider https://github.com && _sync_portable_list
+			_online_check_tool && _sync_portable_list
 			_query_lists "$*"
 			wait
 			sort -u "$AMDATADIR/$ARCH-portable" 2>/dev/null | grep "^◆ .*$" 2>/dev/null | _find_no_order "$@" | _pretty_list_compat

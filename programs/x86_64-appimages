@@ -16,6 +16,7 @@
 ◆ acreom : Acreom desktop app releases.
 ◆ actiona : Actiona is an automation tool that allows you to execute many actions on your computer such as emulating mouse clicks, key presses, showing message boxes, editing text files, etc.
 ◆ actual : A super fast privacy-focused app for managing your finances.
+◆ adobe-flash-player : Unofficial port. Adobe Flash is a mostly discontinued multimedia software platform used for production of animations, rich internet applications, desktop applications, mobile apps, mobile games, and embedded web browser video players. Over 67 billion devices use adobe flash player!
 ◆ advanced-passgen : Advanced Password Generator.
 ◆ advanced-rest-client : Advanced REST Client and API console, by Mulesoft.
 ◆ aegisub : Cross-platform advanced subtitle editor, with new feature branches. Read the README on the feature branch. Cross-platform advanced subtitle editor Cross-platform advanced subtitle editor.
@@ -78,7 +79,9 @@
 ◆ ansel : An open-source photo-editing software for digital artists, designed to help you achieve your own interpretation of raw digital photographs.
 ◆ ant-downloader : BitTorrent Client developed by golang, angular, electron.
 ◆ antares : An useful SQL client based on Electron.js and Vue.js.
+◆ antigravity : Google Antigravity IDE.
 ◆ antimicrox : Use a gamepad to control a variety of programs.
+◆ antra : A desktop music library builder. Resolves Spotify / Apple Music / Amazon Music URLs → get lossless audio → auto-tags, transcodes, and organizes. No subscriptions. No compromises.
 ◆ any-code : Any Code is a professional desktop application tailored for AI-driven code development workflows, supporting three major AI engines: Claude Code CLI, OpenAI Codex, and Google Gemini CLI.
 ◆ anydesk : Unofficial. Remote desktop application distributed.
 ◆ anything-llm : AI business intelligence tool. Any LLM, any document.
@@ -88,7 +91,6 @@
 ◆ aphototoollibre : Photo editing app for GNU/Linux.
 ◆ apidog : API design, debugging, testing, and mock tool.
 ◆ apiflow : A modern API workspace that works both online and offlinecombining API documentation, testing, mock, and AI-powered automation in one lightweight tool.
-◆ apifox : API manager, in Chinese. Includes documentation, API debugging, API mocking, and API automated testing.
 ◆ apk-editor-studio : Easy to use APK, Android reverse-engineering tool.
 ◆ apla : Project was bootstrapped with Create React App.
 ◆ app-outlet : A Universal linux app store for Flatpak/Snap/AppImage.
@@ -109,6 +111,7 @@
 ◆ apx-gcs : APX Ground Control.
 ◆ aranym : Virtual Machine for Atari 32-bit applications.
 ◆ arcade-manager : Manage your rom collection, Games/Retropie & Recalbox.
+◆ arcdlp : Open-source desktop video downloader powered by yt-dlp and electron. Download videos and audio from YouTube, Vimeo, Twitter, and thousands of sites.
 ◆ archipel : Decentralized archiving and media library system.
 ◆ archipelago : Archipelago Multi-Game Randomizer and Server.
 ◆ archiveweb.page : A High-Fidelity Web Archiving Extension for Chrome and Chromium based browsers.
@@ -120,7 +123,6 @@
 ◆ arma3-unix-launcher : ArmA 3 Unix Launcher, game.
 ◆ armagetronad : Multiplayer game in 3d that emulates the movie "Tron".
 ◆ armcord : Custom client designed to enhance your Discord experience.
-◆ artifact : Win 40 levels of mayhem without getting destroyed, game.
 ◆ artisan : Visualizes the coffee roasting process.
 ◆ artix : One app. All your favorite Artix games.
 ◆ asarui : UI for Asar.
@@ -128,7 +130,6 @@
 ◆ aspect : Photo organization application with support for peer-to-peer based synchronization across devices.
 ◆ astroffers : Take offers to watch at given nights by the NGC2000 catalog.
 ◆ astrofox : Audio reactive motion graphics program.
-◆ astroshutter : Ui to control your camera for astrophotography.
 ◆ asunder : Unofficial. Audio CD ripper and encoder, WAV, MP3, OGG, FLAC, Opus, AAC....
 ◆ atomicwallet : Atomic vue-electron.
 ◆ audacious : Unofficial. An open source audio and music player, descendant of XMMS.
@@ -162,6 +163,8 @@
 ◆ axolotl : A Signal compatible cross plattform client written in Go and Vuejs.
 ◆ aya : A desktop application for easily controlling android devices, which can be considered as a GUI wrapper for ADB.
 ◆ azahar-enhanced : Unofficial AppImage of Azahar, with optimized builds for modern cpus.
+◆ azaharplus : A fork of the Azahar 3DS emulator with extra features an open-source 3DS emulator project based on Citra.
+◆ azaharplus-pkg-extractor : Standalone PKG extractor CLI based on code that used to be in ShadPS4 PlayStation 4 emulator written in C++.
 ◆ badlion : Most Complete All-In-One Mod Library for Minecraft with 100+ Mods.
 ◆ baijimangaviewer : Manga viewer that uses Material Design.
 ◆ balatro-multiplayer : A Multiplayer Mod for Balatro.
@@ -264,7 +267,6 @@
 ◆ bscanfftwebcam : FDOCT tool.
 ◆ bsky : A desktop app of bsky.app.
 ◆ bts-ce-lite : Telecommunication network management application.
-◆ buche : A logger of sorts.
 ◆ buckets : Budgeting fast, simple and private.
 ◆ bugdom : Pangea Software's Bugdom game.
 ◆ bugdom2 : Pangea Software’s Bugdom 2 for modern systems.
@@ -351,6 +353,7 @@
 ◆ city-hub : Hub into everything on City Chain/Smart City Platform.
 ◆ ciyue : A simple mdict dictionary.
 ◆ clagrange : Lagrange is a cross-platform client for browsing Geminispace (CLI Version).
+◆ clamui : ClamAV Desktop application (GUI).
 ◆ clapper : Unofficial. A modern media player designed for simplicity and ease of use.
 ◆ clash-nyanpasu : A Clash GUI based on tauri.
 ◆ clash-verge : A multiplatform Clash GUI based on tauri.
@@ -379,7 +382,6 @@
 ◆ coinstac : Collaborative Informatics and Neuroimaging Suite Toolkit.
 ◆ collaboraoffice : Unofficial, a collaborative online office suite based on LibreOffice technology.
 ◆ collision : Unofficial. Verify the checksum/hash validity of files.
-◆ colobot : Colonize with bots, game.
 ◆ colon : A flexible text editor.
 ◆ colorgenerator : Generates color palettes similar to ColorBrewer.
 ◆ colorpicker : Electron app that can show colors with hex/rgb.
@@ -437,11 +439,13 @@
 ◆ creality-print : Creality Print is a slicer dedicated to FDM printers.
 ◆ crg-data-tool : A tool for working with Games Data files from CRG.
 ◆ cric : Custom Runtime Image Creator.
+◆ crispy-doom : Unofficial, a limit-removing enhanced-resolution Doom source port based on Chocolate Doom.
 ◆ criteria-geo : A one-dimensional agro-hydrological model, GIS interface.
 ◆ criteria1d : A one-dimensional agro-hydrological model.
 ◆ criteria1d-pro : A one-dimensional agro-hydrological model, PRO.
 ◆ cro-chain-desktop-bin : Crypto.com DeFi Desktop Wallet, AppImage version.
 ◆ cromagrally : The wildest racing game since man invented the wheel!
+◆ cromagrally-enhanced : Unofficial, the wildest racing game since man invented the wheel!
 ◆ cromberg : Personal accounting system.
 ◆ cromite : Unofficial AppImage of the Cromite web browser.
 ◆ crosscode-map-editor : Map Editor for CrossCode.
@@ -459,6 +463,7 @@
 ◆ cuberite : Unofficial, a lightweight, fast and extensible game server for Minecraft.
 ◆ cura : An open source slicing application for 3D printers.
 ◆ cura-beta : An open source slicing application for 3D printers, beta.
+◆ curseforge : Discover endless mods for your favorite games, or forge your own and share them with millions.
 ◆ cursor : Built to make you extraordinarily productive, Cursor is the best way to code with AI.
 ◆ cursor-cli : Unofficial, AI-assisted development CLI tool.
 ◆ customrpc : An electron-vue project.
@@ -488,7 +493,7 @@
 ◆ deadbeef : Unofficial AppImage of the DeaDBeeF music player (Stable version).
 ◆ deadbeef-nightly : Unofficial AppImage of the DeaDBeeF music player (Nightly version).
 ◆ deadgame-2048 : GUI tool available for ALL platforms.
-◆ dealers-choice : Multiplayer Stud and Draw Poker game.
+◆ dealers-choice : A cross-platform, networked multiplayer poker game supporting draw, stud, and community-card variants, including Texas.
 ◆ deb2appimage : Build AppImages from deb packages on any distro.
 ◆ deckboard : Control your PC with your phone in easy way possible.
 ◆ dedop-studio : DeDop Studio
@@ -520,11 +525,13 @@
 ◆ dezor : The web browser including VPN and Adblocker.
 ◆ dfdemo : A thin Tcl/Tk GUI around the df POSIX command.
 ◆ dfilemanager : File manager written in Qt and C++.
+◆ dhammapada : A simple Dhammapada verse viewer for the Linux desktop.
 ◆ dhewm3 : Unofficial, doom 3 GPL source port.
 ◆ dicomautomaton : Tools for working with medical physics data.
 ◆ die-engine : Detect It Easy, a program for determining types of files.
 ◆ diffuse : Music player, connects to your cloud/distributed storage.
 ◆ digikam : Professional and advanced digital photo management application.
+◆ digikam-dev : Professional and advanced digital photo management application.
 ◆ dingtalk : DingTalk desktop version based on electron.
 ◆ dinosaurplanetrecompiled : A static recompilation/native port of the game Dinosaur Planet.
 ◆ dinox : DinoX - Modern XMPP Chat Client with Video Calls, Voice Messages & OMEMO Encryption.
@@ -547,6 +554,7 @@
 ◆ dorion : Tiny alternative Discord client with a smaller footprint, snappier startup, themes, plugins and more!
 ◆ dosbox-x : Unofficial, DOSBox-X is a cross-platform DOS emulator for running many MS-DOS games.
 ◆ dosemu : Run DOS programs under linux.
+◆ dotline : A modern crosshair overlay app.
 ◆ dotto : A portable and modern pixelart editor, written from scratch.
 ◆ doublecmd-gtk : Two-panel file manager, also known as Double Commander.
 ◆ doublecmd-qt : Two-panel file manager, also known as Double Commander.
@@ -572,6 +580,7 @@
 ◆ dukto : Easy and multi-platform file transfer tool.
 ◆ dunst : Lightweight and customizable notification daemon.
 ◆ duplicate-image-finder : It is an application that can find duplicated images (jpg, png, bitmap, etc) in a collection.
+◆ dusklight : Dusklight brings a classic adventure to PC and mobile platforms with a variety of fixes and improvements.
 ◆ duskplayer : A minimal music player built on electron.
 ◆ dust3d : 3D modeling software for games, 3D printing, and so on.
 ◆ dvdisaster : Additional error protection for CD/DVD media.
@@ -610,7 +619,6 @@
 ◆ electronreact : Desktop application using Electron and React.
 ◆ electronwmd : Upload music to NetMD MiniDisc devices.
 ◆ electrum : Lightweight Bitcoin Client.
-◆ electrum-ltc : A simple, but powerful Litecoin wallet.
 ◆ electrum-neurai : Neurai is a decentralized open source protocol optimized to transfer cryptoassets from one party to another on Layer1. The project aims to integrate NFT and Tokens with IoT and artificial intelligence applications.
 ◆ electrum-ravencoin : Forked from the Electrum Bitcoin base client.
 ◆ electrumfair : Lightweight FairCoin Client.
@@ -656,7 +664,6 @@
 ◆ etherealengine-cc : App for managing Ethereal Engine cluster.
 ◆ etichetta : A YOLO annotator, for human beings.
 ◆ etlegacy : Unofficial, an open source project based on the code of Wolfenstein: Enemy Territory.
-◆ eudic : Chinese app to learn english, listen statistics/note synch....
 ◆ evalit : A notepad calculator application with JavaScript configuration.
 ◆ everdo : A powerful cross-platform GTD app with focus on privacy.
 ◆ everinst : An installer for the Everest mod loader.
@@ -779,6 +786,7 @@
 ◆ freac : fre:ac, free audio converter and CD ripper for various encoders.
 ◆ freecad : Free and open source AutoCAD alternative.
 ◆ freecad-assembly3 : Assembly3 workbench for FreeCAD.
+◆ freecad-weekly : Official developmet build of FreeCAD, a free and opensource multiplatform 3D parametric modeler.
 ◆ freeman : A free, extensible, cross-platform file manager for power users.
 ◆ freeshow : User-friendly presenter software.
 ◆ freetexturepacker : Creates sprite sheets for you game or site, graphics.
@@ -840,7 +848,7 @@
 ◆ ghostty : Unofficial, 👻 ⚙️ AppImage for Ghostty Terminal Emulator (Stable)
 ◆ ghostty-glfw : Unofficial, 👻 ⚙️ AppImage for Ghostty Terminal Emulator (glfw version)
 ◆ ghostty-glfw-nightly : Unofficial, 👻 ⚙️ AppImage for Ghostty Terminal Emulator (Tip, Nightly) (glfw version)
-◆ ghostty-nightly : Unoffical, 👻 ⚙️ AppImage for Ghostty Terminal Emulator (Tip, Nightly)
+◆ ghostty-nightly : Unofficial, 👻 ⚙️ AppImage for Ghostty Terminal Emulator (Tip, Nightly)
 ◆ giada : Hardcore audio music production tool and drum machine for DJs.
 ◆ gibs : Generally In-source Build System, build C++ projects without a project.
 ◆ gifcurry : The open-source, Haskell-built video editor for GIF makers.
@@ -902,6 +910,7 @@
 ◆ gqrx : Software defined radio receiver, SDR.
 ◆ grabscr : Yet another screenshot maker.
 ◆ gradia : Unofficial, screenshot/picture editor and uploader.
+◆ gram-enhanced : Unofficial, a powerful and modern source code editor.
 ◆ graphest :  A faithful graphing calculator.
 ◆ graphql-playground : GraphQL IDE for better development workflows.
 ◆ graphs : Unofficial. A simple, yet powerful tool that allows you to plot and manipulate your data with ease.
@@ -938,6 +947,7 @@
 ◆ hastyheroes : An endless 2D jumping game.
 ◆ hatari : Unofficial, an Atari ST and STE emulator.
 ◆ haveno-reto : Decentralized P2P exchange built on Monero and Tor.
+◆ hdict : Offline dictionary reader for StarDict, Slob, Mdict and Dictd dictionaries.
 ◆ hdrmerge : Merge several raw images into a single DNG raw image.
 ◆ heat1d : UI for testing the soilFluxex3D library, CRITERIA1D.
 ◆ heimer : Simple cross-platform mind map, diagram, and note-taking tool.
@@ -1075,6 +1085,7 @@
 ◆ jscad-desktop : Jscad desktop application.
 ◆ juggernaut : Decentralized messaging and payments.
 ◆ julius : An open source re-implementation of the Caesar III game.
+◆ jumble : A user-friendly Nostr client for exploring relay feeds.
 ◆ kade : A desktop application for Q Methodology.
 ◆ kadium : App for staying ontop of YouTube channels' uploads.
 ◆ kaffeine : Unofficial, Media player with support for digital television (DVB-C/S/S2/T, ATSC, CI/CAM).
@@ -1088,6 +1099,7 @@
 ◆ karbonized : 💫 Awesome Image Generator for Code Snippets & Mockups
 ◆ kardi : Application for taking notes with capabilities to view all content from any device while keeping all data accessible by you only.
 ◆ katvan : A bare-bones editor for Typst files, with a bias for Right-to-Left editing.
+◆ kcc : KCC (Kindle Comic Converter) is a comic and manga converter for ebook readers.
 ◆ kcov : Unofficial, An AppImage of Kcov code coverage tool.
 ◆ kdeconnect : Unofficial, A project that enables all your Android devices to communicate with each other.
 ◆ kdegames : Unofficial, Full & updatable KDE Games suite, metapackage.
@@ -1132,6 +1144,7 @@
 ◆ koreader-nightly : A document viewer for E Ink devices. Supported fileformats include EPUB, PDF, DjVu, XPS, CBT, CBZ, FB2, PDB, TXT, HTML, RTF, CHM, DOC, MOBI and ZIP files. It’s available for Kindle, Kobo, PocketBook, Android and desktop Linux. Nightly build.
 ◆ krita : A professional FREE and open source painting program, graphics.
 ◆ krita-devel : A professional FREE open source painting program, dev-edition.
+◆ krokiet : App to find duplicates, empty folders, similar images etc. The successor of czkawka.
 ◆ kronos : Unofficial, Sega Saturn emulator.
 ◆ krunker : Krunker (.io) is a fast-paced first-person shooter game with pixel graphics.
 ◆ ksnip : Screenshot tool inspired by Windows Snipping Tool and made with Qt.
@@ -1286,7 +1299,6 @@
 ◆ mediachips : Manage your videos, add any metadata to them and play them.
 ◆ mediaelch : Media Manager for Kodi.
 ◆ mediaharbor : Cross-platform MediaHarbor
-◆ median-xl : Launcher for Median XL mod, Diablo II overhaul.
 ◆ mediathekview : Searches the online media libraries of various broadcasters.
 ◆ mednafen : Unofficial AppImage. Mednafen is a portable, utilizing OpenGL and SDL, argument(command-line)-driven multi-system emulator.
 ◆ megaglest : MegaGlest real-time strategy game engine (cross-platform, 3-d).
@@ -1425,6 +1437,7 @@
 ◆ newlogic : A circuit builder.
 ◆ newsflash : Unofficial. RSS reader with support for local and web RSS feed.
 ◆ newton-adventure : A 2D game with a twist, player can rotate gravity at 360°.
+◆ nexen : Multi-system emulator (NES, SNES, GB, GBA, PCE, SMS/GG, WS).
 ◆ nexis : Linux & macOS system optimizer and monitor. Qt6 fork of Stacer with GPU monitoring, dark/light themes, and active maintenance.
 ◆ nextcloud : Client-server software for creating & using file hosting services.
 ◆ nextplayer : A blue-ray player, originally named TheNewPlayerFree.
@@ -1439,6 +1452,7 @@
 ◆ nightpdf : Dark Mode PDF Reader built using Electron and PDF.js.
 ◆ nightwave-plaza-electron : https://plaza.one/ radio station desktop app.
 ◆ nimbus-weather : A beautiful weather app built using the Dark Sky API.
+◆ nine : Nine. is an open source desktop application for managing rental properties.
 ◆ nitrokey : Manage your Nitrokey devices.
 ◆ nix-bucks : A money tracker. Your income and expenses at your control. Finance.
 ◆ nixnote : Use with Evernote to remember everything.
@@ -1500,6 +1514,8 @@
 ◆ okteta : Unofficial. Hex editor for viewing and editing the raw data of files.
 ◆ olive : Free open-source non-linear video editor, nightly build.
 ◆ olive-legacy : Free non-linear video editor, version 0.1.
+◆ ollama : Get up and running with Llama 3, Mistral, Gemma, and other LLMs.
+◆ omikuji : Qt/QML based game launcher for Linux.
 ◆ ommpfritt : Semantic, procedural, non-destructive vector modelling.
 ◆ omniget : Media downloader from various websites.
 ◆ omnipull : Pull Everything. Everywhere. OmniPull is a powerful, cross-platform download manager.
@@ -1511,6 +1527,7 @@
 ◆ onekey-wallet : Open source crypto wallet.
 ◆ onenote : P3X Onenote Linux.
 ◆ oneweb : OneWeb - free, private and secure web browser! POLSKA GUROM.
+◆ onionhop : Privacy-first Desktop app that routes your traffic through Tor - Anonymous browsing made simple.
 ◆ onlyoffice : Office Suite with full support for MS Windows formats and cloud.
 ◆ onlyrefs : Organize all of your references, notes, bookmarks and more.
 ◆ onnx2bnn : Binary neural networks inference framework for mobile platform.
@@ -1521,8 +1538,10 @@
 ◆ opal : Plays relaxing music in the background.
 ◆ open-ai-translator : Browser extension for translation based on ChatGPT API.
 ◆ open-markup-editor : Pluggable markup editor.
+◆ open-pencil : AI-native design editor. Open-source Figma alternative.
 ◆ open-typer : A free and open source typing tutor program.
 ◆ open-video-downloader : A cross-platform GUI for youtube-dl made in Electron.
+◆ open-webui : Your AI, right on your desktop. Open WebUI as a native app. Run models locally or connect to any server. No Docker, no terminal, no setup. Download, launch, chat.
 ◆ openaudible : Download and manage your Audible audiobooks.
 ◆ openblok : A customizable falling block puzzle game like tetris.
 ◆ openbor : Ultimate 2D side scrolling engine for beat em ups, shooters...
@@ -1594,15 +1613,18 @@
 ◆ padloc : Electron Wrapper for Padloc app.
 ◆ pageedit : EPub XHTML Visual Editor.
 ◆ painel-web : Novo SGA panel.
-◆ palemoon : Web browser, a Firefox fork with a classic UI and modern APIs.
+◆ palemoon : Unofficial. Pale Moon is a fully-independent web browser built on its own maintained platform and rendering engine (Goanna), focusing on user customization.
+◆ palemoon-legacy : Unofficial. Pale Moon is a fully-independent web browser built on its own maintained platform and rendering engine (Goanna), focusing on user customization. This is the GTK2 implementation.
 ◆ pandoralauncher : Pandora is a modern Minecraft launcher that balances ease-of-use with powerful instance management features.
 ◆ pandoralaunchercrack : Customized version of Pandora, a modern Minecraft launcher that balances ease-of-use with powerful instance management features.
 ◆ panini : Perspective views from panoramic images.
 ◆ pano-scrobbler : Feature packed cross-platform music tracker for Last.fm, ListenBrainz, Libre.fm, Pleroma and other compatible services.
 ◆ panwriter : Markdown editor with pandoc integration.
 ◆ paper : A CLI Tool to set a random wallpaper from Unsplash.com.
+◆ paper-design : Paper is a modern and powerful design tool that helps you create, share, and ship your best work. Design incredible, the connected canvas for teams shipping with agents.
 ◆ papercraft : A tool to unwrap 3D models.
 ◆ paperlib : An open-source academic paper management tool.
+◆ parabolic : Unofficial, Download web video and audio.
 ◆ parallelcoin : Parallelcoin qt wallet appimage binary.
 ◆ parchment : A minimal minimal text editor written using web technologies.
 ◆ parity-fether : Fether Wallet.
@@ -1620,7 +1642,8 @@
 ◆ pcexhumed : Unofficial, port of the PC version of Exhumed based on EDuke32.
 ◆ pcloud : pCloud Drive Client, cloud service, built using electron and node.js.
 ◆ pcsx-redux-enhanced : Unofficial, modern fork of the pcsxr PlayStation 1 emulator focused on reverse engineering and homebrew development.
-◆ pcsx2 : The Playstation 2 Emulator.
+◆ pcsx2 : PCSX2 is a free and open-source PlayStation 2 (PS2) emulator, using a combination of MIPS CPU Interpreters, Recompilers and a Virtual Machine which manages hardware states and PS2 system memory. This allows you to play PS2 games on your PC, with many additional features and benefits.
+◆ pcsx2-nightly : PCSX2 is a free and open-source PlayStation 2 (PS2) emulator, using a combination of MIPS CPU Interpreters, Recompilers and a Virtual Machine which manages hardware states and PS2 system memory. This allows you to play PS2 games on your PC, with many additional features and benefits. This is the nightly version.
 ◆ pdf-arranger : Unofficial, a small python-gtk application, which helps the user to merge or split PDF documents and rotate, crop and rearrange their pages.
 ◆ pdf-sync : PDF Reader in JavaScript with Sync.
 ◆ pdf-tricks : Unofficial, a simple, efficient application for small manipulations in PDF files.
@@ -1718,6 +1741,7 @@
 ◆ popsicle : Multiple USB File Flasher.
 ◆ portable2appimage : Convert standalone, self-contained portable apps into AppImage packages.
 ◆ positron : Manage your movie and show watchlist.
+◆ postal : Unofficial, Postal a quirky FPS shooter.
 ◆ postcat : An extensible API tool.
 ◆ postman : API platform for building and using APIs, AppImage.
 ◆ postybirb : Multimedia crossposter for multimedia websites.
@@ -1739,6 +1763,7 @@
 ◆ printventory : The ultimate tool for managing your 3D printing collection with ease. Sort, tag, and track your models in one place.
 ◆ prisma-studio : The easiest way to explore and manipulate your data.
 ◆ prismlauncher : Launcher for Minecraft, manage multiple installations.
+◆ prismlauncher-enhanced : Unofficial, a custom launcher for Minecraft that allows you to easily manage multiple installations of Minecraft at once (Fork of MultiMC).
 ◆ privacy.sexy : Tool to enforce privacy & security best-practices.
 ◆ privaxy : The next generation tracker and ads/advertisement blocker.
 ◆ probe-desktop : The next generation OONI Probe desktop app.
@@ -1767,7 +1792,6 @@
 ◆ pulseview : PulseView (sometimes abbreviated as "PV") is a Qt based logic analyzer, oscilloscope and MSO GUI for sigrok.
 ◆ punes : Qt-based Nintendo Entertaiment System emulator and NSF/NSF2/NSFe Music Player.
 ◆ puppetry : Solution for non-developers on top of Puppeteer and Jest.
-◆ pureref : All your reference images in one place.
 ◆ puush-qt : A GUI frontend for puush on Linux.
 ◆ pyappimage : Simple appimage builder for Python applications.
 ◆ pycharm : Unofficial, PyCharm-community-edition in AppImage.
@@ -1818,6 +1842,7 @@
 ◆ qtox : Qt 5 based Tox instant messenger for secure communication.
 ◆ qtrfpowermeter : Improve usage of chinese RF power meter RF8000.
 ◆ quamodbusclient : Modbus to OPC UA Gateway
+◆ quantumlauncher-enhanced : Unofficial, a simple, powerful Minecraft launcher.
 ◆ quark : Sketchbook for rapid prototyping and development of your projects.
 ◆ quark-player : An Electron based Web Video Services Player.
 ◆ quaternion : A Qt5-based IM client for Matrix.
@@ -1883,11 +1908,14 @@
 ◆ repath-studio : A cross-platform vector graphics editor.
 ◆ repetier-host : Repetier-Host is a 3D printing application developed by Hot-World GmbH & Co. KG.
 ◆ reqable : Advanced API Debugging Proxy and REST Client.
-◆ requestly : Free and open-source API Client & Interceptor.
 ◆ responsively : A browser for developing responsive web apps.
-◆ retroarch : Frontend for emulators, game engines and media players.
+◆ retroarch : RetroArch is a free and open-source, cross-platform frontend for emulators, game engines, video games, media players and other applications.
+◆ retroarch-nightly : RetroArch is a free and open-source, cross-platform frontend for emulators, game engines, video games, media players and other applications.
+◆ retroarch-qt : RetroArch is a free and open-source, cross-platform frontend for emulators, game engines, video games, media players and other applications.
+◆ retroarch-qt-nightly : RetroArch is a free and open-source, cross-platform frontend for emulators, game engines, video games, media players and other applications.
 ◆ retrom : A centralized game library/collection management service with a focus on emulation.
 ◆ retroshare : Securely share files with your friends.
+◆ retrovibed : Personal Digital Archive and Media Player with at cost cloud storage backend.
 ◆ revolt : Revolt Desktop App.
 ◆ rewaita : Unofficial, rewaita gives your Adwaita apps a fresh look by tinting them with popular color schemes.
 ◆ rgitui : A GPU-accelerated desktop Git client built in Rust with GPUI.
@@ -2110,6 +2138,7 @@
 ◆ splayer : A simple music player that supports word-by-word lyrics, song downloads, comment section display, music cloud storage and playlist management, music spectrum analysis, and basic mobile adaptation. NetEase Cloud Music.
 ◆ spm : A simple CLI package manager written in bash mainly for AppImages.
 ◆ spmp : A YouTube Music client with a focus on customisation of colours and song metadata.
+◆ sponge-hash-aes256 : A sponge-based secure hash function that uses AES-256 as its internal PRF.
 ◆ spotify : Unofficial. A proprietary music streaming service.
 ◆ spotify-candidate : Unofficial. A proprietary music streaming service.
 ◆ spotify-edge : Unofficial. A proprietary music streaming service.
@@ -2152,7 +2181,6 @@
 ◆ strans : A powerful command-line utility.
 ◆ strata : Semi-automated selection and scaling of time series.
 ◆ strawberry : Unofficial AppImage of the strawberry music player.
-◆ streamcapture2 : Download video streams.
 ◆ streamdock : Streaming service viewer.
 ◆ streamlink : Command-line which pipes video streams from various services.
 ◆ streamlink-twitch-gui : A multi platform Twitch.tv browser for Streamlink.
@@ -2209,7 +2237,9 @@
 ◆ symphonium : A tool to help when learning to play the piano.
 ◆ syncmyl2p : L2P synchronisation tool.
 ◆ syncplay : Synchronize video playback over network.
-◆ syncthing-tray : Tray application for Syncthing.
+◆ syncthing : Open Source Continuous File Synchronization.
+◆ syncthingctl : Tray control application and Dolphin/Plasma integration for Syncthing.
+◆ syncthingtray : Tray application and Dolphin/Plasma integration for Syncthing.
 ◆ synfig : Unofficial. Synfig Studio animation software.
 ◆ synthein : A space ship building and combat game.
 ◆ synthv1 : An old school polyphonic synthesizer.
@@ -2229,8 +2259,8 @@
 ◆ tamga : A 3D sculpting, sketching, and stylized rendering app.
 ◆ tangent : A clean and powerful open source notes app.
 ◆ taradino : Unofficial, SDL2 port of Rise of the Triad.
-◆ taskade : AI-Powered productivity.
 ◆ taskizer : A task management app.
+◆ tasks-org : Private, ad-free task lists. Optional sync with Google Tasks, CalDAV or EteSync.
 ◆ tastee-ui : Tool helping you write executable specifications in your lang.
 ◆ tauon : Unofficial, a music player for the desktop.
 ◆ tbc-video-export : Tool for exporting S-Video and CVBS-type TBCs to video files.
@@ -2239,12 +2269,14 @@
 ◆ teledrive : Automatically backup Telegram Saved Messages.
 ◆ telegram : Official desktop version of Telegram messaging app.
 ◆ tenacity : An easy-to-use, cross-platform multi-track audio editor/recorder.
+◆ terabox : Terabox is the simplest way to send your files around the world. Back up and Share photos, videos, docs, and other files of any size to cloud storage.
 ◆ terminalos-sim : A terminalOS simulator.
 ◆ termora : A terminal emulator and SSH client.
 ◆ teslacam-browser : A minimal TeslaCam Browser.
 ◆ tesler : The Tesla Sentinel Viewer.
 ◆ tesseract : Tesseract Open Source OCR Engine AppImage.
 ◆ tetanes : A cross-platform NES emulator written in Rust using wgpu.
+◆ tev : High dynamic range (HDR) image viewer for people who care about colors.
 ◆ texmacs : Free scientific text editor, inspired by TeX and GNU Emacs.
 ◆ texstudio : LaTeX development environment.
 ◆ textosaurus : Cross-platform text editor based on Qt and Scintilla.
@@ -2270,7 +2302,6 @@
 ◆ tilde-podcast : Podcast client to listen to all you favorite podcasts.
 ◆ tiled : Tile map editor.
 ◆ tilinggenerator : Generator of regular and irregular tilings.
-◆ timely : The release branch for Timely electron apps.
 ◆ timenaut : Desktop time tracking application.
 ◆ tipitaka-pali-reader : A Pali Reading app made in Flutter.
 ◆ tixati : A New and Powerful P2P System 100% Free, Simple and Easy to Use Bittorrent Client.
@@ -2310,7 +2341,6 @@
 ◆ tt : A simple Time Tracker to stay basic and intuitive.
 ◆ tts-now : A chinese text-to-speech assistant based on the speech synthesi.
 ◆ ttth : An electron based desktop app for online services.
-◆ tulip : Large graphs analysis, drawing and visualization framework.
 ◆ tumblr-downloader-gui : Download Tumblr posts that you liked.
 ◆ tumblr-scraper : Scrape a Tumblr profile for user uploadede posts.
 ◆ tunepack : Finding and download HQ audio files.
@@ -2400,6 +2430,7 @@
 ◆ vizgraph : A simple tool for Using Graphviz.
 ◆ vk-desktop : Cross-platform client VKontakte.
 ◆ vk-music-fs : Listen to the music from VK.
+◆ vkdt : Raw photography workflow that sucks less, enabling real-time support for animations, timelapses, raw video, and heavy lifting algorithms like image alignment and better highlight inpainting.
 ◆ vkquake : Vulkan Quake game port based on QuakeSpasm.
 ◆ vlc : Unofficial. Free and Open Source Video & Media player for Audio, streaming and more.
 ◆ vlc-git : Unofficial. Free and Open Source Video & Media player, GIT version.
@@ -2434,7 +2465,6 @@
 ◆ webamp : Winamp Player 2.9 reimplementation in HTML5 and JS.
 ◆ webamp-desktop-enhanced : Unofficial, experimental cross-platform desktop version of Winamp 2.9 reimplementation in electron.
 ◆ webcamoid : Unofficial. A multi-platform camera capture app focused on providing all major features required by power users with a very simple and intuitive interface.
-◆ webcatalog : App store for web apps. Find the right software and services.
 ◆ webcord : A Discord and Fosscord client implemented without Discord API.
 ◆ webcord-enhanced : Unofficial, A Discord and Fosscord client implemented without Discord API.
 ◆ webdesktop : WebDesktop make apps with just a text editor and nodejs.
@@ -2476,7 +2506,6 @@
 ◆ wireshark : Unofficial, the world's most popular network protocol analyze.
 ◆ wishdemo : A μ Tcl/Tk distribution statically linked, AppImage.
 ◆ wives : A beautiful, modern & feature-rich Terminal Emulator.
-◆ wiznote : Create a powerful knowledge graph from personal notes to team wiki.
 ◆ wiznoteplus : The third party that supports the plug-in is Zhinote client.
 ◆ wled-gui : Cross-platform desktop app for WLED.
 ◆ wlx-overlay-s : Access your Wayland/X11 desktop from Monado/WiVRn/SteamVR.
@@ -2511,7 +2540,7 @@
 ◆ xash3d-fwgs-enhanced : Unofficial, a game engine aimed to provide compatibility with Half-Life Engine and extend it.
 ◆ xbydriver : Xiaobaiyang Cloud Drive - Powered by Alibaba Cloud Drive.
 ◆ xchat : Chat with other people using Internet Relay Chat.
-◆ xcloud-desktop : An unoffical desktop app for the XCloud web beta.
+◆ xcloud-desktop : An unofficial desktop app for the XCloud web beta.
 ◆ xde : The Expo Development Environment.
 ◆ xdelta3-cross-gui : A cross-platform GUI for creating xDelta3 patches.
 ◆ xelfviewer : A multiplatform ELF file viewer/editor.

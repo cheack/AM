@@ -72,6 +72,8 @@ You can use the command `am -a {PROGRAM}` to view the description and get the so
 
 [Guides and tutorials](#guides-and-tutorials)
 
+[Regression Testing (for developers)](regress)
+
 [Instructions for Linux Distro Maintainers](#instructions-for-linux-distro-maintainers)
 
 [Troubleshooting](#troubleshooting)
@@ -80,38 +82,86 @@ You can use the command `am -a {PROGRAM}` to view the description and get the so
 
 ------------------------------------------------------------------------
 # Installation
-To install "AM" you must first install the "core" dependencies from your package manager:
-- "`coreutils`" (contains "`cat`", "`chmod`", "`chown`"...);
-- "`curl`", to check URLs;
-- "`grep`", to check files;
-- "`sed`", to edit/adapt installed files;
-- "`wget`" to download all programs and update "AM" itself.
-- "`sudo`" or "`doas`", for installing and removing programs at the system level.
+
+"AM" (system) or "AppMan" (local) is a program that comes in the form of a versatile BASH script, fully compatible with ZSH, FISH, and most POSIX-compliant shells. As such, it calls other programs already present on the host, some "**CORE**", others "**OPTIONAL**".
+
+### ◆ CORE dependencies
+
+If the following dependencies are not present in your system, "AM"/"AppMan" will not work:
+
+| command | motivation | pre-installed? |
+| - | - | - |
+| `coreutils` | it's a suite of core commands | YES, on almost all distributions |
+| `curl` | network utility needed to read online text like lists, URLs and versions | not in all distibutions |
+| `grep` | a string search utility | YES, on many distributions |
+| `sed` | stream editor for filtering and transforming text | YES, in almost all distributions |
+
+*NOTE, if you install "AM" (system) and not "AppMan" (local), **you need `sudo` or `doas` for root privileges**.*
+
+### ◆ OPTIONAL commands
+
+These commands are considered "optional" because they are not strictly necessary for the functioning of "AM" itself, but are nevertheless necessary for the applications you will install.
 
 <details>
-  <summary>Additionally, you may need these optional dependencies, click here.</summary>
+  <summary> >>> Click here to expand <<< </summary>
 
-- "`binutils`", contains a series of basic commands, including "`ar`" which extracts .deb packages;
-- "`less`", to read the ever-longer lists;
-- "`unzip`", to extract .zip packages;
-- "`tar`", to extract .tar* packages;
-- "`zsync`", required by very few programs.
+While it covers many basic commands, "AM"/"AppMan" has the drawback of having to adapt to the various platforms and packaging formats distributed portablely by upstream developers.
+
+In fact, unlike APT, DNF, Pacman, Snap, and Flatpak, which have their own packaging formats (.deb, .rpm, .tar.xz, .snap, and .flatpak), "AM" is more like an AUR helper and may require additional commands to handle multiple packaging formats beyond .AppImage.
+
+Many of them are not pre-installed.
+
+Here is a table of "optional" commands that may be needed on your system:
+
+| command | motivation |
+| - | - |
+| `7z` | required for .7z packages, during installations, and package name may be vary |
+| `ar` | required to extract .deb packages, during installations, and available in the `binutils` package |
+| `column` | columnate lists, often available in the `utils-linux` package, but the GNU version is recommended |
+| `du` | estimate file space usage, often available in the `coreutils` package, but the GNU version is recommended |
+| `file` | determine the type of a file from its contents, and available in the `file` package |
+| `md5sum` `sha1sum` `sha256sum` `sha512sum` | for checksum operations, often available in the `coreutils` package |
+| `notify-send` | can show update notifications if running AM/AppMan in background, and package name may be vary |
+| `tar` | required for .tar packages, and available in the `tar` package |
+| `unxz` `xz` `xzcat` | required as support for other commands for extracting .deb, .tar and similar packages, and package name may be vary |
+| `unzip` | required for .zip packages, and available in the `unzip` package |
+| `wget` | network utility needed to download files from the web like scripts and packages | not in all distibutions, sometime replaced with different commands like `curl` or as wrapper for `wget2` |
 
 </details>
+
+*NOTE, optional dependencies can be covered by **[static binaries](https://github.com/ivan-hc/am-utils)** if necessary. However, **it is recommended to rely on your system package manager**.*
 
 ------------------------------------------------------------------------
 ## Using the "AM-installer" script to choose between local and system-wide installation
 The "AM-INSTALLER" script allows you to choose "[AppMan](#what-is-appman)" instead of "AM", briefly explaining the differences between the two.
 
 Copy/paste the following one line command to download and run the "[AM-INSTALLER](https://github.com/ivan-hc/AM/blob/main/AM-INSTALLER)" script
+
+Using `wget`
 ```
 wget -q https://raw.githubusercontent.com/ivan-hc/AM/main/AM-INSTALLER && chmod a+x ./AM-INSTALLER && ./AM-INSTALLER && rm ./AM-INSTALLER
 ```
+or using `curl`
+```
+curl -s -Lo ./AM-INSTALLER https://raw.githubusercontent.com/ivan-hc/AM/main/AM-INSTALLER && chmod a+x ./AM-INSTALLER && ./AM-INSTALLER && rm ./AM-INSTALLER
+```
 ...below, the screenshot of what will appear.
 
-![Istantanea_2024-11-02_00-03-39 png](https://github.com/user-attachments/assets/7bb170da-5b17-4d36-8d86-679d477debf5)
+------------------------------------------------------------------------
+
+<img width="747" height="600" alt="installer" src="https://github.com/user-attachments/assets/f8a153e8-d410-4a7e-9e5c-b48e686547ee" />
+
+------------------------------------------------------------------------
 
 Type "1" to install "AM", "2" to install "[AppMan](#what-is-appman)". Any other key will abort the installation.
+
+------------------------------------------------------------------------
+
+| AM (system-wide installation) | AppMan (local installation)
+| - | - |
+| <img width="747" height="798" alt="AM" src="https://github.com/user-attachments/assets/51e45525-d858-42a0-9e33-ff2a087968fd" /> | <img width="747" height="798" alt="AppMan" src="https://github.com/user-attachments/assets/99296420-f6da-4d6f-8080-e6ad03aaf0d2" /> |
+
+------------------------------------------------------------------------
 
 **Installation is complete!**
 
@@ -130,8 +180,14 @@ sudo ./INSTALL
 ------------------------------------------------------------------------
 ## Using a one-line command (only system-wide installation)
 Copy/paste the following one line command command
+
+Using `wget`
 ```
-wget https://raw.githubusercontent.com/ivan-hc/AM/main/INSTALL && chmod a+x ./INSTALL && sudo ./INSTALL && rm ./INSTALL
+wget -q https://raw.githubusercontent.com/ivan-hc/AM/main/INSTALL && chmod a+x ./INSTALL && sudo ./INSTALL && rm ./INSTALL
+```
+or using `curl`
+```
+curl -s -Lo ./INSTALL https://raw.githubusercontent.com/ivan-hc/AM/main/INSTALL && chmod a+x ./INSTALL && sudo ./INSTALL && rm ./INSTALL
 ```
 This is definitely the quickest method of all!
 
@@ -158,9 +214,16 @@ As we've already seen, AppMan is portable, meaning you can use it anywhere, in a
 The basic principle is very simple: the APP-MANAGER script must be renamed "appman".
 
 Try it and believe it:
+
+Using `wget`
 ```
-wget -q "https://raw.githubusercontent.com/ivan-hc/AM/main/APP-MANAGER" -O ./appman && chmod a+x ./appman
+wget -q https://raw.githubusercontent.com/ivan-hc/AM/main/APP-MANAGER -O ./appman && chmod a+x ./appman
 ```
+or using `curl`
+```
+curl -s -Lo ./appman https://raw.githubusercontent.com/ivan-hc/AM/main/APP-MANAGER && chmod a+x ./appman
+```
+
 However, **this approach is NOT RECOMMENDED** for various reasons, the most common being convenience:
 - the AM-INSTALLER ensures the creation of an XDG_BIN_HOME or $HOME/.local/bin directory if it doesn't already exist, so you can use it in $PATH without having to write the entire path to the script.
 - by installing it in the local $PATH, the AM-INSTALLER also takes care of its use in ZSH, if that is used instead of BASH.
@@ -182,7 +245,7 @@ if ! echo $PATH | grep "$BINDIR" >/dev/null 2>&1; then
 		printf '	export PATH="$PATH:$BINDIR"\nfi\n' >> "$ZSHRC"
 	fi
 fi
-wget -q "https://raw.githubusercontent.com/ivan-hc/AM/$AM_BRANCH/APP-MANAGER" -O "$BINDIR"/appman && chmod a+x "$BINDIR"/appman
+curl -s -Lo "$BINDIR"/appman https://raw.githubusercontent.com/ivan-hc/AM/main/APP-MANAGER && chmod a+x "$BINDIR"/appman
 ```
 The above is a "summary" (without the messages) of what the AM-INSTALLER script already does when you choose option 2 (AppMan).
 
@@ -445,7 +508,7 @@ Visit [github.com/topgrade-rs/topgrade](https://github.com/topgrade-rs/topgrade)
 
 <details>
   <summary>Click here to see the full list of options</summary>
-  
+
 ------------------------------------------------------------------------
 ## USAGE:
 
@@ -555,7 +618,7 @@ NOTE: Since this is an "install" option, you can add the "`--user`" flag (before
 Shows the list of all installed programs, with sizes. By default apps are sorted by size, use "`--byname`" to sort by name. With the option "`--less`" it shows only the number of installed apps. Option "`-fi`" only shows installed apps, not the AppImages integrated with the "`--launcher`" option.
 
 ------------------------------------------------------------------------
-### `help`, `-h`
+### `help`, `-h`, `--help`
 
 		am -h
 
@@ -1000,13 +1063,13 @@ Below you can access the documentation pages related to the use of "AM", complet
 
 ------------------------------------------------------------------------
 # Instructions for Linux Distro Maintainers
-**Glossary**:  
+**Glossary**:
 - System `am` (`/usr/bin/am`)
 - Local-system `am` (`/usr/local/bin/am` symlinked to `/opt/am/APP-MANAGER`)
 - Local-user `appman` (`$HOME/.local/bin/appman`)
 - APPMANCONFIG=`$XDG_CONFIG_HOME/appman-config`
 
-You can package "AM" for Debian, Fedora, Arch Linux, Gentoo and many more GNU/Linux distros using the following configuration:  
+You can package "AM" for Debian, Fedora, Arch Linux, Gentoo and many more GNU/Linux distros using the following configuration:
 - `/usr/bin/am`
 - `/usr/lib/am/modules/`
 
@@ -1014,29 +1077,29 @@ where "`/usr/bin/am`" is the script "[APP-MANAGER](https://github.com/ivan-hc/AM
 
 Applications will continue to be installed in `/opt/` or `$HOME` location when `--user` flag is used for installation, according to the `$APPMANCONFIG` file configuration.
 
-What changes from the locally-installed `am` or `appman` is the update process of the CLI and modules.  
+What changes from the locally-installed `am` or `appman` is the update process of the CLI and modules.
 System `am` intentionally ignores updates of CLI and modules in this scenario & hands that responsibility to the distro package manager in use (APT, DNF, PacMan/YaY...)
 
-`--devmode` option is completely disabled in this mode, as it's only intended to update locally-installed `am` or `appman` in run-time to `dev` branch.  
+`--devmode` option is completely disabled in this mode, as it's only intended to update locally-installed `am` or `appman` in run-time to `dev` branch.
 You as a packager or distro-maintainer can optionally make `am-dev` or `am-git` package separately from `am` for this usage.
 
-Generation of shell completions in `$HOME` is also disabled in this mode, as they can be easily packaged in respective system directories.  
+Generation of shell completions in `$HOME` is also disabled in this mode, as they can be easily packaged in respective system directories.
 That can be done like this:
 
-**Bash**  
-Located in `/usr/share/bash-completion/completions/am`:  
+**Bash**
+Located in `/usr/share/bash-completion/completions/am`:
 - `complete -W "$(cat "${XDG_DATA_HOME:-$HOME/.local/share}/AM/list" 2>/dev/null)" am`
 
-**Zsh**  
-Zsh completion currently depends on the bash one, which can be inserted into `zshrc`:  
+**Zsh**
+Zsh completion currently depends on the bash one, which can be inserted into `zshrc`:
 ```zsh
 autoload bashcompinit
 bashcompinit
 source "/usr/share/bash-completion/completions/am"
 ```
 
-**Fish**  
-Located in `/usr/share/fish/vendor_completions.d/am`:  
+**Fish**
+Located in `/usr/share/fish/vendor_completions.d/am`:
 ```fish
 set data_home "$XDG_DATA_HOME"
 if test -z "$data_home"
@@ -1044,9 +1107,6 @@ if test -z "$data_home"
 end
 complete -c am -f -a "(cat "$data_home/AM/list" 2>/dev/null)"
 ```
-
-Another recommendation is to use `wget` instead of `wget2` (in Fedora, it's called `wget1` & you also need to install `wget1-wget` package, so it becomes symlinked to `wget`).
-`wget` gives the prettier & generally working output, while `wget2` has a bug where it clears out the output of itself, making the application installation & update progress hardly visible.
 
 ### Distro examples: Gidro-OS
 
@@ -1086,12 +1146,12 @@ Below you can access documentation pages for common issues and frequently asked 
 - *[amcheck](https://github.com/ivan-hc/amcheck), checks the validity of scripts in this database and monitors the availability of AppImages*
 - *[am-extras](https://github.com/ivan-hc/am-extras), lists applications from third-party databases*
 - *[am-gui](https://github.com/Shikakiben/AM-GUI), a graphical Front for AM, by @Shikakiben*
+- *[am-utils](https://github.com/ivan-hc/am-utils), a static binaries collection for AM*
 - *[vappman](https://github.com/joedefen/vappman), a visual (curses) TUI interface to AppMan, by @joedefen*
 
 #### External tools and forks used in this project
 - *[aisap](https://github.com/mgord9518/aisap) and [sas](https://github.com/Samueru-sama/simple-appimage-sandbox), sandboxing solutions for AppImages, see sandboxing options above*
 - *[appimagetool](https://github.com/AppImage/appimagetool), get rid of libfuse2 from old AppImages (option `nolibfuse`) and create AppImages on the fly*
-- *[dbin](https://github.com/xplshn/dbin), the easy to use/get, suckless software distribution system, used as OCI registry client to install packages from third-party databases*
 
 #### Organizations and their affiliates that actively contribute to this project
 - *[Package Forge](https://github.com/pkgforge), Improving Package Management & Security for Linux systems*
