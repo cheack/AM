@@ -13,7 +13,6 @@
 ◆ ab-download-manager : A Download Manager that speeds up your downloads.
 ◆ abaddon : Unofficial, an alternative Discord client with voice support made with C++ and GTK 3.
 ◆ abiword : Unofficial. A light and free word processing software.
-◆ accessimap-lecteur-der : Accessimap Lecteur DER.
 ◆ acestep-cpp-ui : AceStep-cpp UI, 100% local and free Suno alternative powered by acestep-cpp. Native C++ bundle for local AI music generation with 0% python.
 ◆ acestream : Створення бінарника AppImage з AceStream Media.
 ◆ acreom : Acreom desktop app releases.
@@ -67,6 +66,7 @@
 ◆ amazingmarvin : Incorporates principles from behavioral psychology.
 ◆ ambermoon.net : Ambermoon rewrite in C#.
 ◆ amdgpu_top : Tool to display AMDGPU usage.
+◆ amethyst-mod-manager : A Linux native mod manager for a variety of games.
 ◆ amfora : A fancy terminal browser for the Gemini protocol.
 ◆ amiberry : Unofficial, optimized Amiga emulator.
 ◆ amplitude-soundboard : A sleek, cross-platform soundboard, available.
@@ -88,7 +88,6 @@
 ◆ aniship : Allows for easy viewing of anime on PCs and laptops.
 ◆ ankama-launcher : Ankama is an entertainment and digital creation group.
 ◆ anki : Unofficial, Anki's shared backend and web components, and the Qt frontend.
-◆ anklang : MIDI and Audio Synthesizer and Composer.
 ◆ another-redis-desktop-manager : Faster and better redis desktop manager.
 ◆ ansel : An open-source photo-editing software for digital artists, designed to help you achieve your own interpretation of raw digital photographs.
 ◆ ant-downloader : BitTorrent Client developed by golang, angular, electron.
@@ -618,6 +617,7 @@
 ◆ deeptags : Markdown notes manager with support for nested tags.
 ◆ deerportal : Full of the diamonds board game.
 ◆ deezer : A linux port of Deezer, allows downloading your songs, music.
+◆ deezer-enhanced : An unofficial application for Deezer with enhanced features.
 ◆ defichain-app : DefiChain Wallet AppImage.
 ◆ defold : Unofficial, Defold is a completely free to use game engine for development of games.
 ◆ delta : A syntax-highlighting pager for git, diff, grep, and blame output.
@@ -650,6 +650,7 @@
 ◆ didder : An extensive, fast, and accurate command-line image dithering tool.
 ◆ die-engine : Detect It Easy, a program for determining types of files.
 ◆ diff : Compare files line by line. This is part of "am-utils" suite.
+◆ diffre : A fast, local file and folder diff tool like Beyond Compare, built for the desktop.
 ◆ diffuse : Music player, connects to your cloud/distributed storage.
 ◆ digikam : Professional and advanced digital photo management application.
 ◆ digikam-dev : Professional and advanced digital photo management application.
@@ -862,7 +863,6 @@
 ◆ fd : A simple, fast and user-friendly alternative to 'find'.
 ◆ fdm : Free Download Manager, multiplatform powerful modern download accelerator and organizer.
 ◆ fdroidcl : A command-line F-Droid desktop client.
-◆ feather-wallet : Monero wallet.
 ◆ featherpad : Unofficial. A lightweight Qt plain-text editor.
 ◆ feebas : Screenshot comparison tool for identifying visual regressions.
 ◆ feedseries : Follow your series enthusiast news, in french.
@@ -1125,7 +1125,6 @@
 ◆ gotimer : A simple terminal based digital timer for Pomodoro.
 ◆ goto : A simple terminal SSH manager that lists favorite SSH servers.
 ◆ goverlay : An opensource project that aims to create a Graphical UI to help manage Linux overlays.
-◆ gozen : A lightweight, stable, minimalistic and performant video editor with simplicity in mind.
 ◆ gp-archive : Archive profiling experiment data. This is part of "am-utils" suite.
 ◆ gp-collect-app : Collect application performance profiling data. This is part of "am-utils" suite.
 ◆ gp-display-html : Generate HTML reports from profiling data. This is part of "am-utils" suite.
@@ -1510,7 +1509,6 @@
 ◆ lambda-lantern : A 3D game about functional programming patterns.
 ◆ lan-mouse : Mouse & keyboard sharing via LAN.
 ◆ landrop : Drop any files to any devices on your LAN.
-◆ langly : Manage Laravel json language files.
 ◆ lanshare : LAN file transfer app for any kind and size of files and folders.
 ◆ lapce : Lightning-fast and Powerful Code Editor written in Rust.
 ◆ laravel-kit : Easy Laravel application management.

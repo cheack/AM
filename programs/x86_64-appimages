@@ -10,7 +10,6 @@
 ◆ aaaaxy : A nonlinear puzzle platformer, game.
 ◆ abaddon : Unofficial, an alternative Discord client with voice support made with C++ and GTK 3.
 ◆ abiword : Unofficial. A light and free word processing software.
-◆ accessimap-lecteur-der : Accessimap Lecteur DER.
 ◆ acestep-cpp-ui : AceStep-cpp UI, 100% local and free Suno alternative powered by acestep-cpp. Native C++ bundle for local AI music generation with 0% python.
 ◆ acestream : Створення бінарника AppImage з AceStream Media.
 ◆ acreom : Acreom desktop app releases.
@@ -56,6 +55,7 @@
 ◆ amarok : Unofficial, powerful music player that lets you rediscover your music.
 ◆ amazingmarvin : Incorporates principles from behavioral psychology.
 ◆ amdgpu_top : Tool to display AMDGPU usage.
+◆ amethyst-mod-manager : A Linux native mod manager for a variety of games.
 ◆ amiberry : Unofficial, optimized Amiga emulator.
 ◆ amplitude-soundboard : A sleek, cross-platform soundboard, available.
 ◆ amule : All-platform P2P client based on eMule. aMule is a free, GPL-licensed peer-to-peer file-sharing client for the eD2k and Kademlia networks.
@@ -75,7 +75,6 @@
 ◆ aniship : Allows for easy viewing of anime on PCs and laptops.
 ◆ ankama-launcher : Ankama is an entertainment and digital creation group.
 ◆ anki : Unofficial, Anki's shared backend and web components, and the Qt frontend.
-◆ anklang : MIDI and Audio Synthesizer and Composer.
 ◆ another-redis-desktop-manager : Faster and better redis desktop manager.
 ◆ ansel : An open-source photo-editing software for digital artists, designed to help you achieve your own interpretation of raw digital photographs.
 ◆ ant-downloader : BitTorrent Client developed by golang, angular, electron.
@@ -505,6 +504,7 @@
 ◆ deeptags : Markdown notes manager with support for nested tags.
 ◆ deerportal : Full of the diamonds board game.
 ◆ deezer : A linux port of Deezer, allows downloading your songs, music.
+◆ deezer-enhanced : An unofficial application for Deezer with enhanced features.
 ◆ defichain-app : DefiChain Wallet AppImage.
 ◆ defold : Unofficial, Defold is a completely free to use game engine for development of games.
 ◆ deltachat-desktop : Desktop Application for delta.chat.
@@ -532,6 +532,7 @@
 ◆ dhewm3 : Unofficial, doom 3 GPL source port.
 ◆ dicomautomaton : Tools for working with medical physics data.
 ◆ die-engine : Detect It Easy, a program for determining types of files.
+◆ diffre : A fast, local file and folder diff tool like Beyond Compare, built for the desktop.
 ◆ diffuse : Music player, connects to your cloud/distributed storage.
 ◆ digikam : Professional and advanced digital photo management application.
 ◆ digikam-dev : Professional and advanced digital photo management application.
@@ -706,7 +707,6 @@
 ◆ fbreader : Your Favourite eBook Reader
 ◆ fchat-horizon : The Best F-Chat 3.0 Client, No exceptions!.
 ◆ fdm : Free Download Manager, multiplatform powerful modern download accelerator and organizer.
-◆ feather-wallet : Monero wallet.
 ◆ featherpad : Unofficial. A lightweight Qt plain-text editor.
 ◆ feebas : Screenshot comparison tool for identifying visual regressions.
 ◆ feedseries : Follow your series enthusiast news, in french.
@@ -904,7 +904,6 @@
 ◆ gopeed : A modern download manager that supports all platforms.
 ◆ gospel : Poppler based fast pdf viewer written in PyQt5.
 ◆ goverlay : An opensource project that aims to create a Graphical UI to help manage Linux overlays.
-◆ gozen : A lightweight, stable, minimalistic and performant video editor with simplicity in mind.
 ◆ gpgfrontend : A Cross-Platform OpenPGP Frontend Software.
 ◆ gpredict : A satellite tracking application.
 ◆ gpt-anywhere : Use GPT anywhere with just one shortcut.
@@ -1167,7 +1166,6 @@
 ◆ laigter : Tool to generate normal/specular/occlussion/parallax 2D maps.
 ◆ lambda-lantern : A 3D game about functional programming patterns.
 ◆ landrop : Drop any files to any devices on your LAN.
-◆ langly : Manage Laravel json language files.
 ◆ lanshare : LAN file transfer app for any kind and size of files and folders.
 ◆ lapce : Lightning-fast and Powerful Code Editor written in Rust.
 ◆ laravel-kit : Easy Laravel application management.
