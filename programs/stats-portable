@@ -11,7 +11,6 @@
 ◆ amfora : A fancy terminal browser for the Gemini protocol. #itscliapp
 ◆ ani-cli : A cli tool to browse and play anime. #itscliapp
 ◆ antidot : Cleans up your $HOME from those pesky dotfiles. #itscliapp
-◆ antigravity : Google Antigravity IDE. #itsappimageonthefly
 ◆ appimagen : A script that generates a custom AppImage from a PPA. #itscliapp
 ◆ appimageupdate : A Rust implementation of AppImageUpdate, a tool for updating AppImages using efficient delta updates using zsync. #itscliapp
 ◆ appimg : Appimg is a lightweight command-line tool that helps you manage AppImage files on Linux. #itscliapp
@@ -128,13 +127,11 @@
 ◆ dtmate : CLI to compute difference between date, time or duration. #itscliapp
 ◆ du : Estimate file space usage. This is part of "am-utils" suite. #itscliapp
 ◆ dua : View disk space usage and delete unwanted data, fast. #itscliapp
-◆ duelyst : A digital collectible card game and turn-based strategy hybrid. #itscliapp
 ◆ duf : Disk Usage/Free Utility, a better 'df' alternative. #itscliapp
 ◆ dune : A shell by the beach. #itscliapp
 ◆ dust : A more intuitive version of du in rust. #itscliapp
 ◆ dysk : A linux utility to get information on filesystems, like df but better. #itscliapp
 ◆ echo : Display a line of text. This is part of "am-utils" suite. #itscliapp
-◆ effer : Encrypted CLI Notepad written in Rust #itscliapp
 ◆ eget : Easily install prebuilt binaries from GitHub. #itscliapp
 ◆ elfedit : Header and program property of ELF files. This is part of "am-utils" suite. #itscliapp
 ◆ elvish : Powerful modern shell scripting. #itscliapp
@@ -179,7 +176,8 @@
 ◆ fx : Terminal JSON viewer & processor. #itscliapp
 ◆ fynodoro : Fynodoro, the Pomodoro Widget. #itsdesktopapp
 ◆ fzf : A command-line fuzzy finder. #itscliapp
-◆ gallery-dl : Command-line program to download image galleries and collections. #itscliapp
+◆ gallery-dl : Command-line program to download image galleries and collections from several image hosting sites. #itscliapp
+◆ gallery-dl-nightly : Command-line program to download image galleries and collections from several image hosting sites, nightly build. #itscliapp
 ◆ gameimage : Pack a runner/emulator/game and it's configs in a single AppImage. #itsdesktopapp
 ◆ gawk : GNU version of awk. This is part of "am-utils" suite. #itscliapp
 ◆ gemget : Command line downloader for the Gemini protocol. #itscliapp
@@ -201,7 +199,6 @@
 ◆ glow : Render markdown on the CLI, with pizzazz! #itscliapp
 ◆ gncdu : Implements NCurses Disk Usage(ncdu) with golang. #itscliapp
 ◆ go-pd : A free easy to use pixeldrain.com go client pkg and CLI upload tool. #itscliapp
-◆ go-pd-gui : DRAINY is a free easy to use cross plattform upload tool for pixeldrain.com. #itsdesktopapp
 ◆ go-spotify-cli : Control Spotify with CLI commands. #itscliapp
 ◆ goanime : A TUI tool to browse, stream, and download anime in English and Portuguese. #itscliapp
 ◆ gobuster : A high-performance directory/file, DNS and virtual host brute-forcing tool written in Go. It's designed to be fast, reliable, and easy to use for security professionals and penetration testers. #itscliapp
@@ -300,6 +297,7 @@
 ◆ lowfi : An extremely simple lofi player. CLI. #itscliapp
 ◆ ls : List directory contents. This is part of "am-utils" suite. #itscliapp
 ◆ lsd : The next gen ls command. #itscliapp
+◆ ludusavi : Backup tool for PC game saves. #itsdesktopapp
 ◆ macchina : A system information frontend with an emphasis on performance. #itscliapp
 ◆ manga-tui : Terminal-based manga reader and downloader with image support. #itscliapp
 ◆ mangadesk : Terminal client for MangaDex. #itscliapp
@@ -354,11 +352,13 @@
 ◆ od : Dump files in octal and other formats. This is part of "am-utils" suite. #itscliapp
 ◆ oh : A new Unix shell. #itscliapp
 ◆ ollama : Get up and running with Llama 3, Mistral, Gemma, and other LLMs. #itsappimageonthefly
+◆ omegat : OmegaT is a free and open source multiplatform Computer Assisted Translation tool with fuzzy matching, translation memory, keyword search, glossaries, and translation leveraging into updated projects. #itsdesktopapp
 ◆ omekasy : Command line application that converts alphanumeric characters to various styles 𝚍𝚎𝚏𝚒𝚗𝚎𝚍 𝚒𝚗 𝚄𝚗𝚒𝚌𝚘𝚍𝚎. #itscliapp
 ◆ onefetch : Command-line Git information tool. #itscliapp
 ◆ onionmediax : OnionMedia X. Convert and download videos and music quickly and easily. #itsdesktopapp
 ◆ openapi-tui : Terminal UI to list, browse and run APIs defined with openapi. #itscliapp
 ◆ openarena : Violent & sexy, multiplayer first person shooter game, ioquake3. #itsdesktopapp
+◆ opencode : The open source coding agent. #itscliapp
 ◆ openmw : OpenMW is an open-source open-world RPG game engine that supports playing Morrowind. #itsdesktopapp
 ◆ oras : OCI registry client managing content like artifacts, images, packages. #itscliapp
 ◆ ots : Share end-to-end encrypted secrets with others via a one-time URL. #itscliapp
@@ -568,6 +568,7 @@
 ◆ xz : Library and command line tools for XZ and LZMA compressed files. This is part of "am-utils" suite. #itscliapp
 ◆ xzcat : Xzcat, lzma, unlzma, lzcat - Compress or decompress .xz. This is part of "am-utils" suite. #itscliapp
 ◆ yaf : Yet another system CLI fetch that is minimal and customizable. #itscliapp
+◆ yandex-music : Personal recommendations, mixes for any occasion and the latest musical releases. #itsappimageonthefly
 ◆ yazi : Blazing fast terminal file manager written in Rust. #itscliapp
 ◆ yes : Output a string repeatedly until killed. This is part of "am-utils" suite. #itscliapp
 ◆ youtube-download : GUI and CLI for downloading YouTube video/audio. #itsdesktopapp

@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//tmp/mt-ntsc/tmp/**)",
+      "Bash(mv ./*.AppImage ./app)",
+      "Bash(chmod +x ./app)",
+      "Bash(sh -c './app --appimage-extract \".DirIcon\" 1>/dev/null')",
+      "Bash(sh -c ' *)",
+      "Bash(rm -rf /tmp/mt-tixati)",
+      "Bash(mkdir -p /tmp/mt-tixati)",
+      "Read(//tmp/mt-tixati/**)",
+      "Bash(sh /home/vp/git/portable2appimage/portable2appimage ./app.tar.gz tixati)",
+      "Bash(env)",
+      "Bash(rm -f /tmp/ntsc-rs.desktop /tmp/ntsc-rs.svg /tmp/AppRun /tmp/p2a.sh)",
+      "Read(//tmp/**)"
+    ],
+    "additionalDirectories": [
+      "/home/vp/git/portable2appimage"
+    ]
+  }
+}

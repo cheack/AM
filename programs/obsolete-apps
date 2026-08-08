@@ -216,7 +216,6 @@ electron-app-store 2021
 electron-react-boilerplate 2022
 electron-ssr 2020
 electron-utils 2023
-electron-wechat 2019
 electron-xiami 2019
 electronreact 2023
 electrum-ravencoin 2024
@@ -368,6 +367,7 @@ hyperkeys 2024
 hyperspace 2019
 i3lock-color 2023
 iagoncloudapp 2023
+igdm 2022
 iheartradio-webapp 2021
 imagemosaicwall 2020
 imagine 2023
@@ -428,6 +428,7 @@ ldtk 2024
 leaflet 2021
 led.custom.palette 2018
 legendary-kingdoms 2024
+lescovex 2019
 lexido 2024
 libassist 2019
 lightning 2019
@@ -620,7 +621,6 @@ pget 2023
 phinch 2023
 pho 2024
 photoflow 2020
-photogimp 2020
 photoname 2024
 photopealoader 2022
 phreshplayer 2019
@@ -731,6 +731,7 @@ running-dinner-tool 2020
 rustdict 2022
 rx-bin 2021
 ryowallet 2022
+safe-multisig 2023
 saphyr 2022
 saucedacity 2022
 sblauncher 2020
@@ -940,7 +941,6 @@ webdesktop 2019
 weektodo 2024
 westeroscraftlauncher 2020
 wethr 2021
-wewechat 2018
 wexond 2021
 wezterm 2024
 whatstron 2024
