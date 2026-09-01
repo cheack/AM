@@ -4,8 +4,6 @@
 ◆ 3d-puzzles : 3D-Puzzles are Rubik, Dogic and Dogic12. #itsdesktopapp
 ◆ 3nity-media : Cross-platform media player built with Lazarus/Free Pascal and libmpv. Features playlist management, internet radio, equalizer, visualizations, stream recording, and 100 language translations. #itsdesktopapp
 ◆ 432hz-player : Because most music is recorded in 440hz, Audio Player. #itsdesktopapp
-◆ 4ktube : 4KTUBE is a fast, powerful, and user-friendly application designed to Download YouTube Videos, Playlists, and Music in high-definition (HD, 4K, 8K) effortlessly. #itsdesktopapp
-◆ 4kwall : Browse, search, download, organize and automatically rotate millions of beautiful HD, 4K & 8K wallpapers. #itsdesktopapp
 ◆ 5ire : 5ire is a cross-platform desktop AI assistant, MCP client. It compatible with major service providers, supports local knowledge base and tools via model context protocol servers. #itsdesktopapp
 ◆ 86box : Emulator of x86-based machines based on PCem. #itsdesktopapp
 ◆ 86box-enhanced : Unofficial, emulator of x86-based machines based on PCem. #itsdesktopapp
@@ -143,6 +141,7 @@
 ◆ astroffers : Take offers to watch at given nights by the NGC2000 catalog. #itsdesktopapp
 ◆ astrofox : Audio reactive motion graphics program. #itsdesktopapp
 ◆ asunder : Unofficial. Audio CD ripper and encoder, WAV, MP3, OGG, FLAC, Opus, AAC.... #itsdesktopapp
+◆ asyar : A fast, open-source launcher with the power of Raycast, speed of Alfred and privacy by design. #itsdesktopapp
 ◆ atomicwallet : Atomic vue-electron. #itsdesktopapp
 ◆ audacious : Unofficial. An open source audio and music player, descendant of XMMS. #itsdesktopapp
 ◆ audacity : Multiplatform Audio Editor. #itsdesktopapp
@@ -203,6 +202,7 @@
 ◆ bearly : The world's best AI at your fingertips. #itsdesktopapp
 ◆ beatconnect-client : Beatconnect power for osu irc. #itsdesktopapp
 ◆ beaver-notes : Build your knowledge one log at a time. #itsdesktopapp
+◆ bedrockonlinux : Run Minecraft Bedrock for Windows seamlessly on Linux - with real Xbox sign-in, Friends, servers and Realms. #itsdesktopapp
 ◆ beekeeper-studio : SQL query editor and database UI. #itsdesktopapp
 ◆ beeref : BeeRef Reference Image Viewer. #itsdesktopapp
 ◆ bench-cli : CLI tool to benchmark commands, written in `Fortran`. #itsdesktopapp
@@ -269,7 +269,7 @@
 ◆ bookmarks-manager : Edit bookmarks, check url. #itsdesktopapp
 ◆ boost-note : Document driven project management tool to speedup remote DevOps. #itsdesktopapp
 ◆ boostchanger : Control CPU turbo boost and the settings of the cpu speed. #itsdesktopapp
-◆ botclient : A discord botclient built with Electron and React. #itsdesktopapp
+◆ boris : Behavioral Observation Research Interactive Software. #itsdesktopapp
 ◆ botframework-emulator : Test and debug chat bots built with Bot Framework SDK. #itsdesktopapp
 ◆ bottlebats : Client for the 2018 edition of the BottleBats AI competition. #itsdesktopapp
 ◆ bottles : Unofficial. Manage wine prefixes and run Windows software & games in a new way. #itsdesktopapp
@@ -350,6 +350,7 @@
 ◆ cerebro : Open-source productivity booster with a brain. #itsdesktopapp
 ◆ chain-desktop-wallet : Crypto.com DeFi Desktop Wallet. #itsdesktopapp
 ◆ chainx-signer : Manage ChainX account, sign and sign transactions. #itsdesktopapp
+◆ chaski-app : A calmer way to read the web. #itsdesktopapp
 ◆ chat-gpt : Unofficial. ChatGPT Desktop Application. #itsdesktopapp
 ◆ chatall : Concurrently chat with ChatGPT, Bing Chat, bard, Alpaca and more. #itsdesktopapp
 ◆ chatbox : Chatbox is a desktop app for GPT-4 / GPT-3.5, OpenAI API. #itsdesktopapp
@@ -388,6 +389,7 @@
 ◆ clash-verge : A multiplatform Clash GUI based on tauri. #itsdesktopapp
 ◆ classicimageviewer : A simple image viewer with some editing features. #itsdesktopapp
 ◆ classicube : Unofficial, Custom Minecraft Classic / ClassiCube client written in C from scratch #itsdesktopapp
+◆ classin : Unofficial AppImage wrapper for ClassIn. #itsdesktopapp
 ◆ classipod : A local music player app designed to capture the nostalgic essence of the iconic iPod Classic. #itsdesktopapp
 ◆ claude-code : Unofficial AppImage of claude-code. #itsdesktopapp
 ◆ claude-desktop : Unofficial, Claude is a next generation AI assistant built by Anthropic and trained to be safe, accurate, and secure to help you do your best work. #itsdesktopapp
@@ -395,6 +397,7 @@
 ◆ cleepdesktop : Desktop application to manage your Cleep devices. #itsdesktopapp
 ◆ clementine : Unofficial AppImage of the Clementine music player. #itsdesktopapp
 ◆ clementineremote : Remote for Clementine Music Player. #itsdesktopapp
+◆ cli-chess : A highly customizable way to play chess in your terminal. Supports playing online (via Lichess.org) and offline against the Fairy-Stockfish engine. All Lichess variants are supported. #itsdesktopapp
 ◆ cliniface : 3D Facial Image Visualisation and Analysis. #itsdesktopapp
 ◆ clipgrab : Download and Convert Online Videos. #itsdesktopapp
 ◆ clippy : Clipboard History. #itsdesktopapp
@@ -419,6 +422,7 @@
 ◆ colorstatic-bash : CLI to generate a random colorful "Static"/"Matrix". #itsdesktopapp
 ◆ comic-book-reader : Reader and converter for cbz, cbr, epub and pdf files. #itsdesktopapp
 ◆ comic-reader : Electron based comic reader. #itsdesktopapp
+◆ comic-strip-browser : A standalone PyQt6 application for browsing a selection of comic strips from GoComics and Comics Kingdom. #itsdesktopapp
 ◆ comictagger : A multi-platform app for writing metadata to digital comics. #itsdesktopapp
 ◆ commander-genius : Unofficial, an open-source interpreter for the Commander Keen (1-6, Dreams) and Cosmos Cosmic series. #itsdesktopapp
 ◆ compass : Air Traffic Surveillance DataBase. #itsdesktopapp
@@ -437,6 +441,7 @@
 ◆ coolercontrol : A program to monitor and control your cooling devices. #itsdesktopapp
 ◆ coolercontrold : Daemon for coolercontrol, to monitor your cooling devices. #itsdesktopapp
 ◆ copyq : Unofficial, an advanced clipboard manager with powerful editing and scripting features. #itsdesktopapp
+◆ copyq-enhanced : Unofficial AppImage of CopyQ Fork made using the Anylinux-AppImages tools. #itsdesktopapp
 ◆ copytranslator : Foreign language reading and translation assistant. #itsdesktopapp
 ◆ cordlauncher : Cord launcher based on Electron and Wep Application. #itsdesktopapp
 ◆ coreaction : A side bar for showing widgets for CuboCore Application Suite. #itsdesktopapp
@@ -482,6 +487,7 @@
 ◆ cromite : Unofficial AppImage of the Cromite web browser. #itsdesktopapp
 ◆ crosscode : OS Swift development IDE for Windows/Linux. Create, build, and test apps without owning a Mac. #itsdesktopapp
 ◆ crosscode-map-editor : Map Editor for CrossCode. #itsdesktopapp
+◆ crossdirstat : Free open-source cross-platform file & directory statistics. #itsdesktopapp
 ◆ crossmacro : A modern mouse and keyboard macro recording and playback application. #itsdesktopapp
 ◆ crossmobile : Create native iOS/Android/Windows apps in Java. #itsdesktopapp
 ◆ crow-translate : Translate and speak text using Google, Yandex, Bing and more. #itsdesktopapp
@@ -509,12 +515,14 @@
 ◆ czkawka : App to find duplicates, empty folders, similar images etc. #itsdesktopapp
 ◆ d1x-rebirth : Unofficial, a source port of the Descent engine. #itsdesktopapp
 ◆ d2x-rebirth : Unofficial, a source port of the Descent 2 engine. #itsdesktopapp
+◆ dabri : Minimalist, privacy-first, offline Speech-to-Text (STT) application. #itsdesktopapp
 ◆ daggerfall-unity : Unofficial, open source recreation of Daggerfall in the Unity engine. #itsdesktopapp
 ◆ daisy : A beautiful, easy-to-use, ad-free manga and light novel client that supports both. (Anime Home). #itsdesktopapp
 ◆ dana : A desktop client for the Dana learning box. #itsdesktopapp
 ◆ darkplaces : Unofficial, the DarkPlaces Quake engine, created by LadyHavoc. #itsdesktopapp
 ◆ darktable : Photography workflow app and raw developer. #itsdesktopapp
 ◆ darktable-nightly : Photography workflow application and raw developer (nightly). #itsdesktopapp
+◆ dashbeam : Peer-to-peer encrypted files and folders transfer tool to anywhere in the world - any format, no accounts, no restrictions. #itsdesktopapp
 ◆ dashy-app : Dashboard creation application. #itsdesktopapp
 ◆ database-dossier : A User Interface for your databases. #itsdesktopapp
 ◆ dataset-annotator : An annotation tool for a dataset. #itsdesktopapp
@@ -623,6 +631,7 @@
 ◆ dukto : Easy and multi-platform file transfer tool. #itsdesktopapp
 ◆ dunst : Lightweight and customizable notification daemon. #itsdesktopapp
 ◆ duplicate-image-finder : It is an application that can find duplicated images (jpg, png, bitmap, etc) in a collection. #itsdesktopapp
+◆ duplicati : Store securely encrypted backups on cloud storage services. #itsdesktopapp
 ◆ dusklight : Dusklight brings a classic adventure to PC and mobile platforms with a variety of fixes and improvements. #itsdesktopapp
 ◆ duskplayer : A minimal music player built on electron. #itsdesktopapp
 ◆ dust3d : 3D modeling software for games, 3D printing, and so on. #itsdesktopapp
@@ -633,6 +642,7 @@
 ◆ dwyco-phoo : Dwyco Phoo Chat and Video Calling. #itsdesktopapp
 ◆ e2-sat-editor : Satellite channel lists editor with tabbed nav. #itsdesktopapp
 ◆ eaglemode : Zoomable user interface with plugin applications. #itsdesktopapp
+◆ easier-pixel-dungeon : Mod of Shattered Pixel Dungeon, an open-source traditional roguelike dungeon crawler with randomized levels and enemies, and hundreds of items to collect and use. #itsdesktopapp
 ◆ easytag : Unofficial AppImage of EasyTAG tag editor. #itsdesktopapp
 ◆ ecency-surfer : Rewarding communities built, owned and operated by its users. #itsdesktopapp
 ◆ ecode : Lightweight code editor designed for modern hardware. #itsdesktopapp
@@ -666,7 +676,6 @@
 ◆ electrum-ravencoin : Forked from the Electrum Bitcoin base client. #itsdesktopapp
 ◆ electrumfair : Lightweight FairCoin Client. #itsdesktopapp
 ◆ electrumsvp : Bitcoin BSV wallet, fork of ElectrumSV. #itsdesktopapp
-◆ element : A feature-rich client for Matrix.org. #itsdesktopapp
 ◆ element-desktop : Unofficial, glossy Matrix collaboration client for desktop. #itsdesktopapp
 ◆ elementary-code : AppImage version of Elementary OS "Code" by Maksym Titenko. #itsdesktopapp
 ◆ elements : App which displays the periodic table, Education, Science. #itsdesktopapp
@@ -685,7 +694,9 @@
 ◆ encryptpad : Secure text editor and binary encryptor with passwords. #itsdesktopapp
 ◆ endless-sky : Space exploration and combat game. #itsdesktopapp
 ◆ enoseannotator : View, annotate and store measurements of the eNose sensor. #itsdesktopapp
+◆ ensu : Ensu is a private, offline AI chat app by Ente Labs that runs entirely on your device. #itsdesktopapp
 ◆ ente-auth : Fully open source, End to End Encrypted alternative to Google Photos and Apple Photos. #itsdesktopapp
+◆ ente-ensu-stripped : Ente Ensu release with the GPU/Display Libraries stripped out for compatibility. #itsdesktopapp
 ◆ ente-photos : Binary releases of the Ente Photos desktop app. #itsdesktopapp
 ◆ enve : Create 2D Animations. #itsdesktopapp
 ◆ envkey : EnvKey’s cross-platform native app. #itsdesktopapp
@@ -695,6 +706,7 @@
 ◆ epsxe : Unofficial, enhanced PSX emulator. #itsdesktopapp
 ◆ eqonomize : Manage your personal finances. #itsdesktopapp
 ◆ equibop : Equibop is a custom Discord App aiming to give you better performance and improve linux support. #itsdesktopapp
+◆ er-save-manager : Elden Ring Save Manager - A comprehensive save file editor, backup manager, and corruption fixer for Elden Ring with an intuitive GUI, community Browsers, ItemGib and much more. #itsdesktopapp
 ◆ era : ERA is your note-taking tool. #itsdesktopapp
 ◆ erscaffold : A code generator for websites. #itsdesktopapp
 ◆ es-de : EmulationStation Desktop Edition. #itsdesktopapp
@@ -751,10 +763,12 @@
 ◆ fdm : Free Download Manager, multiplatform powerful modern download accelerator and organizer. #itsdesktopapp
 ◆ featherpad : Unofficial. A lightweight Qt plain-text editor. #itsdesktopapp
 ◆ feebas : Screenshot comparison tool for identifying visual regressions. #itsdesktopapp
+◆ feedflow : Minimal, fast RSS reading without the clutter.It focuses on a clean timeline, flexible reading modes, and control over sync and storage. #itsdesktopapp
 ◆ feedseries : Follow your series enthusiast news, in french. #itsdesktopapp
 ◆ feishin : Sonixd Rewrite, a desktop music player. #itsdesktopapp
 ◆ ferdium : All your services in one place, built by the community. #itsdesktopapp
 ◆ ferrix : Fast, modern, cross-platform download manager built with Rust and Tauri, supports resumable downloads, clean UI, and blazing performance. #itsdesktopapp
+◆ ferrumpix : Multi-platform desktop photo management and editing application. #itsdesktopapp
 ◆ ff-password-exporter : Export your saved passwords from Firefox. #itsdesktopapp
 ◆ fflogs-uploader : FFLogs Uploader appimage. #itsdesktopapp
 ◆ ffmpeg : Unofficial, A complete, cross-platform solution to record, convert and stream audio and video. #itsdesktopapp
@@ -804,6 +818,7 @@
 ◆ flow-browser : A modern, privacy-focused browser with a minimalistic design. #itsdesktopapp
 ◆ flowinity : The versatile all-in-one online platform, for everyone. #itsdesktopapp
 ◆ fluent-reader : Modern desktop RSS reader. #itsdesktopapp
+◆ fluentflame-reader : Community fork of Fluent Reader with a maintained codebase and new features, built with Electron, React, and Fluent UI. #itsdesktopapp
 ◆ fluxdown : Rust based blazing fast download manager with support for HTTP/FTP/BitTorrent magnetic links and HLS/DASH streaming, intelligent multithreading acceleration and seamless integration with the browser. #itsdesktopapp
 ◆ fluxer : A free and open source instant messaging and VoIP platform built for friends, groups, and communities. #itsdesktopapp
 ◆ flycast : A Sega Dreamcast, Naomi, Naomi 2 and Atomiswave emulator. #itsdesktopapp
@@ -929,7 +944,6 @@
 ◆ glulxe : AppImage of the glulxe interactive fiction interpreter. #itsdesktopapp
 ◆ glyphr-studio-desktop : Professional font design programs. #itsdesktopapp
 ◆ gm-companion : A tool for rpg gamemasters. #itsdesktopapp
-◆ gmail-desktop : Unofficial. Nifty Gmail desktop app. #itsdesktopapp
 ◆ gnatstudio : GNAT Studio is a powerful and lightweight IDE for Ada and SPARK. #itsdesktopapp
 ◆ gnome-boxes : Unofficial, A simple GNOME application to access virtual machines. #itsdesktopapp
 ◆ gnome-calculator : Unofficial, Perform arithmetic, scientific or financial calculations. #itsdesktopapp
@@ -940,6 +954,7 @@
 ◆ gnome-web : Unofficial AppImage of Gnome Web aka Epiphany.. #itsdesktopapp
 ◆ gnu-freedink : Unofficial, a portable and enhanced version of the Dink Smallwood game engine. #itsdesktopapp
 ◆ gnumeric : Unofficial. An open-source spreadsheet program. #itsdesktopapp
+◆ go2tv : Cast media files to Smart TVs and Chromecast devices. #itsdesktopapp
 ◆ godmode : AI Chat Browser fast, full webapp access to ChatGPT/Claude/Bard/Bing/Llama2. #itsdesktopapp
 ◆ godot : Multi-platform 2D and 3D game engine with a feature-rich editor. #itsdesktopapp
 ◆ godsvg : A vector graphics application for structured SVG editing, available on all major desktop platforms and on web. #itsdesktopapp
@@ -996,7 +1011,6 @@
 ◆ gyroflow : Video stabilization using gyroscope data. #itsdesktopapp
 ◆ hades-emu : A Nintendo Game Boy Advance Emulator. #itsdesktopapp
 ◆ hammer : A simple tool for building stories. #itsdesktopapp
-◆ hamsket : Free and Open Source messaging and emailing app. #itsdesktopapp
 ◆ handbrake : Unofficial, An open-source multiplatform video transcoder. #itsdesktopapp
 ◆ handy : A free, open source, and extensible speech-to-text application that works completely offline. #itsdesktopapp
 ◆ hangar : A native Bluesky client for Linux, built with Rust, GTK4, and Libadwaita. #itsdesktopapp
@@ -1161,7 +1175,7 @@
 ◆ kanon : Maturita GPJP designed for use with kanon web app. #itsdesktopapp
 ◆ kanri : Modern offline Kanban board app. Built with simplicity and user experience in mind. #itsdesktopapp
 ◆ karbonized : 💫 Awesome Image Generator for Code Snippets & Mockups #itsdesktopapp
-◆ kardi : Application for taking notes with capabilities to view all content from any device while keeping all data accessible by you only. #itsdesktopapp
+◆ kate : Unofficial Anylinux AppImage of Kate (and kwrite), a feature-packed text editor by KDE. #itsdesktopapp
 ◆ katvan : A bare-bones editor for Typst files, with a bias for Right-to-Left editing. #itsdesktopapp
 ◆ kcc : KCC (Kindle Comic Converter) is a comic and manga converter for ebook readers. #itsdesktopapp
 ◆ kcov : Unofficial, An AppImage of Kcov code coverage tool. #itsdesktopapp
@@ -1199,6 +1213,7 @@
 ◆ kitshn : An unofficial client for the self-hosted Tandoor recipe management software. #itsdesktopapp
 ◆ kitupiikki : Bookkeeping software for small organizations. #itsdesktopapp
 ◆ kiwix : An offline reader for Web content, primarily designed to make Wikipedia available offline. It reads archives in the ZIM file format, a highly compressed open format with additional metadata. #itsdesktopapp
+◆ kkeditqt : QT vesion of KKEdit, a deceptively simple text editor with syntax colouring. #itsdesktopapp
 ◆ klogg : A smart interactive log explorer. #itsdesktopapp
 ◆ km-recplayer : Recorder and player of keyboard and mouse input (HID) #itsdesktopapp
 ◆ kmymoney : KMyMoney is a cross-platform personal finance manager build on KDE frameworks technologies for your desktop and notebook environment. #itsdesktopapp
@@ -1233,6 +1248,7 @@
 ◆ lambda-lantern : A 3D game about functional programming patterns. #itsdesktopapp
 ◆ landrop : Drop any files to any devices on your LAN. #itsdesktopapp
 ◆ lanshare : LAN file transfer app for any kind and size of files and folders. #itsdesktopapp
+◆ lap : An offline-first photo manager for large local libraries. #itsdesktopapp
 ◆ lapce : Lightning-fast and Powerful Code Editor written in Rust. #itsdesktopapp
 ◆ laravel-kit : Easy Laravel application management. #itsdesktopapp
 ◆ launcher : Generic application's launcher. #itsdesktopapp
@@ -1246,7 +1262,9 @@
 ◆ leapp : The DevTool to access your cloud. #itsdesktopapp
 ◆ led.custom.palette : Design the lights on your Model01 with an ease. #itsdesktopapp
 ◆ ledger-live-desktop : Ledger Wallet crypto app. Secure your crypto assets such as Bitcoin, Ethereum, XRP, Monero, and more. Give yourself peace of mind by knowing that your cryptocurrencies are safe. #itsdesktopapp
+◆ legacylauncher : Unofficial AppImage for Legacy Launcher, a Minecraft launcher that is stable, fast and simple. #itsdesktopapp
 ◆ legcord : Legcord is a custom client designed to enhance your Discord experience while keeping everything lightweight. #itsdesktopapp
+◆ lege : A selective binarization and re-encoding program to prepare scanned books for pleasant reading on E-ink readers. #itsdesktopapp
 ◆ legendary-kingdoms : Implementation of Legendary Kingdoms Gamebooks in C++. #itsdesktopapp
 ◆ lemon : A tiny judging environment for OI contest based on Project_LemonPlus. #itsdesktopapp
 ◆ lens : App you need to take control of your Kubernetes clusters. #itsdesktopapp
@@ -1279,11 +1297,12 @@
 ◆ linked : Daily journaling without distraction. #itsdesktopapp
 ◆ linkora : Link organizer for Android and desktop with self-hosted sync. #itsdesktopapp
 ◆ linphone : A libre SIP client. #itsdesktopapp
+◆ linux-command-library : Linux basics, tips and formatted man pages. #itsdesktopapp
 ◆ linux-intel-undervolt-gui : Undervolting GUI for Intel Linux Systems. #itsdesktopapp
 ◆ linuxaircombat : Free open source combat flight simulator. #itsdesktopapp
 ◆ linuxdeploy : AppDir creation and maintenance tool. Featuring flexible plugin system. #itscliapp
 ◆ linuxdeployqt : Convert a linux program to an AppDir or an AppImage. #itscliapp
-◆ linuxqq : New Linux QQ based on Electron. #itsdesktopapp
+◆ linuxqq : Tencent QQ (Chinese: 腾讯QQ), also known as QQ, is an instant messaging software service and web portal developed by the Chinese technology company Tencent. #itsdesktopapp
 ◆ linuxtoys : Unofficial, a user-friendly collection of tools to make your life on Linux easier than ever. Useful scripts for gamers, developers and enthusiasts. #itsdesktopapp
 ◆ linuxwallpaper : Bing wallpaper of the day. #itsdesktopapp
 ◆ linwood-butterfly : Powerful, minimalistic, cross-platform, note-taking app. #itsdesktopapp
@@ -1354,7 +1373,7 @@
 ◆ marlin-conf : Configuration tool for Marlin project. #itsdesktopapp
 ◆ martian : Websocket testing tool. #itsdesktopapp
 ◆ marvin : Open Source record and playback test automation for the web. #itsdesktopapp
-◆ master-pdf-editor : Master PDF Editor allows you to create, edit, preview, encrypt, sign and print PDF documents. #itsdesktopapp
+◆ master-pdf-editor : Master PDF Editor is the optimal solution for editing PDF files in Linux. It enables you to create, edit, view, encrypt, sign and print interactive PDF documents. #itsdesktopapp
 ◆ masterkey : Unofficial AppImage of Master Key. #itsdesktopapp
 ◆ mastervyrn : MasterVyrn is a clean dedicated GBF loader. #itsdesktopapp
 ◆ mate-system-monitor : Unofficial, Process viewer and system resource monitor, from MATE. #itsdesktopapp
@@ -1394,10 +1413,12 @@
 ◆ mendeley : Search over 100 million cross-publisher articles and counting. #itsdesktopapp
 ◆ meow-sql : An attempt to port HeidiSQL to C++/Qt. #itsdesktopapp
 ◆ meron : Mail app that sparks joy. Fast/secure email client with chat and kanban view. #itsdesktopapp
+◆ meru : Unofficial Gmail desktop app. #itsdesktopapp
 ◆ mesa : Experimental AppImage that lets you use the latest MESA with any binary on your system. #itsdesktopapp
 ◆ meshlab : Processor and editor of large 3D triangular meshes. #itsdesktopapp
 ◆ meshmill : The world's greatest open source 3D CAM software, maybe one day. #itsdesktopapp
 ◆ meta-grabber : A tool to grab metadata for tv shows and rename files on PC. #itsdesktopapp
+◆ metaclean : Offline desktop app for removing sensitive metadata from files. #itsdesktopapp
 ◆ mgba : Game Boy Advance Emulator. #itsdesktopapp
 ◆ mgba-enhanced : Unofficial, Game Boy Advance Emulator. #itsdesktopapp
 ◆ micropad : µPad is an open digital note taking app. #itsdesktopapp
@@ -1462,6 +1483,8 @@
 ◆ mp3-tagger : An Electron app to edit metadata of mp3 files. #itsdesktopapp
 ◆ mpc-qt : Media Player Classic Qute Theater. #itsdesktopapp
 ◆ mpv : Unofficial, A free, open source, and cross-platform media player, Multiple-choices. #itsdesktopapp
+◆ mpv-nightly : Unofficial nightly build, A free, open source, and cross-platform media player. #itsdesktopapp
+◆ mpz : Folder player for big local music collections. #itsdesktopapp
 ◆ mqtt-explorer : Explore your message queues. #itsdesktopapp
 ◆ mqttcute : An advanced desktop MQTT client for binary protocol development. #itsdesktopapp
 ◆ mqttx : MQTT 5.0 Desktop, CLI, and WebSocket client tools. #itsdesktopapp
@@ -1553,7 +1576,8 @@
 ◆ nodeflow : An Editor for creating simple or complex OCR workflows. #itsdesktopapp
 ◆ nodes : A new way to create with code. #itsdesktopapp
 ◆ noi : 🚀 an AI-enhanced, customizable browser designed to streamline your digital experience. #itsdesktopapp
-◆ nomacs : Unofficial, nomacs is a free, open source image viewer, which supports multiple platforms. #itsdesktopapp
+◆ nomacs : Nomacs is a free, open source image viewer, which supports multiple platforms. #itsdesktopapp
+◆ nomacs-dev : Nomacs is a free, open source image viewer, which supports multiple platforms. This is the more recent development build. #itsdesktopapp
 ◆ nootka : Application for learning musical score notation. #itsdesktopapp
 ◆ nora : An elegant music player built using Electron and React. #itsdesktopapp
 ◆ normcap : OCR powered screen-capture tool to capture info instead of images. #itsdesktopapp
@@ -1564,6 +1588,7 @@
 ◆ notemaster : Note-taking app to help boost productivity. #itsdesktopapp
 ◆ notepad++ : Unofficial Appimage of Notepad++, with WINE prefix. #itsdesktopapp
 ◆ notepadnext : A cross-platform, reimplementation of Notepad++. #itsdesktopapp
+◆ notepadqq : A simple, general-purpose editor designed by developers, for developers. #itsdesktopapp
 ◆ notepanda : A simple cross-platform notepad. Based on Qt and C++. #itsdesktopapp
 ◆ noter : Simple serial terminal application. #itsdesktopapp
 ◆ notes : Note-taking application, write down your thoughts. #itsdesktopapp
@@ -1636,12 +1661,14 @@
 ◆ open-markup-editor : Pluggable markup editor. #itsdesktopapp
 ◆ open-pencil : AI-native design editor. Open-source Figma alternative. #itsdesktopapp
 ◆ open-typer : A free and open source typing tutor program. #itsdesktopapp
-◆ open-video-downloader : A cross-platform GUI for youtube-dl made in Electron. #itsdesktopapp
+◆ open-video-downloader : Open Video Downloader - A cross-platform GUI for youtube-dl made in Rust with Tauri and Vue + Typescript. #itsdesktopapp
 ◆ open-webui : Your AI, right on your desktop. Open WebUI as a native app. Run models locally or connect to any server. No Docker, no terminal, no setup. Download, launch, chat. #itsdesktopapp
 ◆ openaudible : Download and manage your Audible audiobooks. #itsdesktopapp
 ◆ openblok : A customizable falling block puzzle game like tetris. #itsdesktopapp
 ◆ openboardview : Unofficial AppImage of Open Board Viewer. #itsdesktopapp
 ◆ openbor : Ultimate 2D side scrolling engine for beat em ups, shooters... #itsdesktopapp
+◆ openboxgl : A modern, local-first game library and launcher for Linux. Organize and launch your collection with an open-source alternative to LaunchBox. #itsdesktopapp
+◆ opencadstudio : A CAD application built with Rust — 2D/3D drawing, DWG/DXF support, and GPU-accelerated rendering. #itsdesktopapp
 ◆ openclaw : Unofficial, reimplementation of Captain Claw (1997) platformer. #itsdesktopapp
 ◆ opencloud : Desktop application to synchronize files from OpenCloud with your computer. #itsdesktopapp
 ◆ opencode-cli : Unofficial AppImage of the opencode CLI utility. The open source coding agent. #itsdesktopapp
@@ -1649,6 +1676,7 @@
 ◆ opencode-enhanced : Unofficial, improved AppImage of opencode, the open source coding agent. #itsdesktopapp
 ◆ opencomic : Comic and Manga reader, written with Node.js and using Electron. #itsdesktopapp
 ◆ opengothic : Unofficial AppImage of OpenGothic. #itsdesktopapp
+◆ openhuman : Your personal AI super intelligence - a brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher. #itsdesktopapp
 ◆ openhv : A mod for OpenRA based on the Hard Vacuum, game. #itsdesktopapp
 ◆ openjazz : Unofficial, open-source version of the classic Jazz Jackrabbit™ games. #itsdesktopapp
 ◆ openlara : Unofficial, classic Tomb Raider open-source engine. #itsdesktopapp
@@ -1670,6 +1698,7 @@
 ◆ openscad : The Programmers Solid 3D CAD Modeller. #itsdesktopapp
 ◆ openscreen : Create stunning screen recordings for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio. #itsdesktopapp
 ◆ openshot : A powerful Video Editor. #itsdesktopapp
+◆ openssh-gui : A simple GUI front-end for OpenSSH for Windows, Linux and Mac!. #itsdesktopapp
 ◆ openstickies : Sticky notes for your desktop. Simple, fast, private. Drop files, paste screenshots, set reminders, keep things visible where you work. #itsdesktopapp
 ◆ openstream-music : The OpenStream Music source. #itsdesktopapp
 ◆ openswe1r : Unofficial, an open-source port of the 1999 game Star Wars Episode 1: Racer. #itsdesktopapp
@@ -1719,6 +1748,7 @@
 ◆ paintfe : A fast, lightweight raster image editor for Windows. Features layers, blend modes, GPU-accelerated filters, gradients, mesh warp, brushes, selection tools, adjustments, animated GIF/APNG support, and a built-in Rhai scripting engine. Single portable executable, no install required. #itsdesktopapp
 ◆ palemoon : Unofficial. Pale Moon is a fully-independent web browser built on its own maintained platform and rendering engine (Goanna), focusing on user customization. #itsdesktopapp
 ◆ palemoon-legacy : Unofficial. Pale Moon is a fully-independent web browser built on its own maintained platform and rendering engine (Goanna), focusing on user customization. This is the GTK2 implementation. #itsdesktopapp
+◆ panconvert : GUI Wrapper for Pandoc. #itsdesktopapp
 ◆ pandoralauncher : Pandora is a modern Minecraft launcher that balances ease-of-use with powerful instance management features. #itsdesktopapp
 ◆ pandoralaunchercrack : Customized version of Pandora, a modern Minecraft launcher that balances ease-of-use with powerful instance management features. #itsdesktopapp
 ◆ panini : Perspective views from panoramic images. #itsdesktopapp
@@ -1809,6 +1839,8 @@
 ◆ pixelpulse2 : Pixelpulse2 is a user interface for analog systems exploration. #itsdesktopapp
 ◆ pixsrt : Pixel sorter. #itsdesktopapp
 ◆ pkg2appimage : Utility to convert .yml recipes to AppDir, see appimagetool. #itscliapp
+◆ pkhex : Unofficial release of PKHeX, the Pokemon Save File Editor. #itsdesktopapp
+◆ pla-site-tool : Portable-Linux-Apps site generator. #itscliapp
 ◆ plagpatrol : Detecting documents tampered to bypass plagiarism detectors. #itsdesktopapp
 ◆ planes : Variant of battleships game. #itsdesktopapp
 ◆ planet-blupi : A delirious spell-binding game. #itsdesktopapp
@@ -1881,6 +1913,7 @@
 ◆ prismlauncher : Launcher for Minecraft, manage multiple installations. #itsdesktopapp
 ◆ prismlauncher-enhanced : Unofficial, a custom launcher for Minecraft that allows you to easily manage multiple installations of Minecraft at once (Fork of MultiMC). #itsdesktopapp
 ◆ privacy.sexy : Tool to enforce privacy & security best-practices. #itsdesktopapp
+◆ privacynotes : End-to-end encrypted notes, tasks and journal, keyed by a 12-word BIP-39 phrase: no email, no password, no account to leak. #itsdesktopapp
 ◆ privaxy : The next generation tracker and ads/advertisement blocker. #itsdesktopapp
 ◆ probe-desktop : The next generation OONI Probe desktop app. #itsdesktopapp
 ◆ procdepmonitor : Obtaining information about loaded process dependencies. #itsdesktopapp
@@ -1892,7 +1925,7 @@
 ◆ prospect-mail : An Outlook mail desktop client powered by Electron. #itsdesktopapp
 ◆ protocol_10 : A mod decompiler for frosty tool suite. #itsdesktopapp
 ◆ protoman : A Postman-like API client for protobuf-based messages. #itsdesktopapp
-◆ protonmail-desktop : Unofficial Electron wrapper for ProtonMail. #itsdesktopapp
+◆ protonplus : A modern compatibility tools manager. #itsdesktopapp
 ◆ protontricks : Unofficial AppImage of Protontricks. #itsdesktopapp
 ◆ protonup-qt : Manage Proton-GE/Luxtorpeda for Steam/Wine-GE for Lutris. #itsdesktopapp
 ◆ proxy-master : Set and reset your proxy settings EVERYWHERE. #itsdesktopapp
@@ -2038,6 +2071,7 @@
 ◆ retroarch-qt : RetroArch is a free and open-source, cross-platform frontend for emulators, game engines, video games, media players and other applications. #itsdesktopapp
 ◆ retroarch-qt-nightly : RetroArch is a free and open-source, cross-platform frontend for emulators, game engines, video games, media players and other applications. #itsdesktopapp
 ◆ retrom : A centralized game library/collection management service with a focus on emulation. #itsdesktopapp
+◆ retromind : Portable media manager for organizing and launching your media library for games, movies, books, comics and more. #itsdesktopapp
 ◆ retroshare : Securely share files with your friends. #itsdesktopapp
 ◆ retrovibed : Personal Digital Archive and Media Player with at cost cloud storage backend. #itsdesktopapp
 ◆ revolt : Revolt Desktop App. #itsdesktopapp
@@ -2248,6 +2282,7 @@
 ◆ sonusmix : Next-gen Pipewire audio routing tool. #itsdesktopapp
 ◆ sound-space-plus : Unofficial AppImage of sound-space-plus, Rhythm-based aim game. #itsdesktopapp
 ◆ soundcloud-rpc : A SoundCloud client with Discord Rich Presence and AdBlock. #itsdesktopapp
+◆ sourcegit : Opensource Git GUI client. #itsdesktopapp
 ◆ sourcetrail : Source explorer to get you productive on unfamiliar source code. #itsdesktopapp
 ◆ sozi : A "zooming" presentation editor. #itsdesktopapp
 ◆ spacebar : Themeable and extendable discord-compatible native Spacebar client. #itsdesktopapp
@@ -2268,7 +2303,6 @@
 ◆ spivak : Karaoke player based on GStreamer and Qt5. #itsdesktopapp
 ◆ splayer : A simple music player that supports word-by-word lyrics, song downloads, comment section display, music cloud storage and playlist management, music spectrum analysis, and basic mobile adaptation. NetEase Cloud Music. #itsdesktopapp
 ◆ spm : A simple CLI package manager written in bash mainly for AppImages. #itsdesktopapp
-◆ spmp : A YouTube Music client with a focus on customisation of colours and song metadata. #itsdesktopapp
 ◆ sponge-hash-aes256 : A sponge-based secure hash function that uses AES-256 as its internal PRF. #itsdesktopapp
 ◆ spotify : Unofficial. A proprietary music streaming service. #itsdesktopapp
 ◆ spotify-candidate : Unofficial. A proprietary music streaming service. #itsdesktopapp
@@ -2385,6 +2419,7 @@
 ◆ system-monitoring-center : Unofficial. Multi-featured system monitor. #itsdesktopapp
 ◆ szyszka : Szyszka is fast and powerful file renamer. #itsdesktopapp
 ◆ t.viewer : Cross Platform Tizen Log Viewer. #itsdesktopapp
+◆ t3-code : T3 Code is a minimal GUI for coding agents. #itsdesktopapp
 ◆ t3code : T3 Code is a minimal web GUI for coding agents (currently Codex and Claude, more coming soon). #itsdesktopapp
 ◆ tabby : A terminal for a more modern age #itsdesktopapp
 ◆ tablo-tools : Tools to Bulk Delete and Export from Tablo DVR. #itsdesktopapp
@@ -2406,8 +2441,10 @@
 ◆ tbc-video-export : Tool for exporting S-Video and CVBS-type TBCs to video files. #itsdesktopapp
 ◆ tc : A desktop chat client for Twitch. #itsdesktopapp
 ◆ teams : Unofficial, Business communication platform developed by Microsoft. #itsdesktopapp
+◆ tectonic : A modernized, complete, self-contained TeX/LaTeX engine, powered by XeTeX and TeXLive. #itsdesktopapp
 ◆ teledrive : Automatically backup Telegram Saved Messages. #itsdesktopapp
 ◆ telegram : Official desktop version of Telegram messaging app. #itsdesktopapp
+◆ telegram-drive : Turn your Telegram account into an unlimited, secure cloud storage drive. It provides a desktop-style workspace over Saved Messages and Telegram channels, with uploads, downloads, folders, previews, streaming, sharing tools, a local REST API, themes, localization, and an opt-in encrypted-transfer mode. #itsdesktopapp
 ◆ tenacity : An easy-to-use, cross-platform multi-track audio editor/recorder. #itsdesktopapp
 ◆ terabox : Terabox is the simplest way to send your files around the world. Back up and Share photos, videos, docs, and other files of any size to cloud storage. #itsdesktopapp
 ◆ terminalos-sim : A terminalOS simulator. #itsdesktopapp
@@ -2465,6 +2502,7 @@
 ◆ torcs : The 3D Open Racing Car Game and Simulator. #itsdesktopapp
 ◆ torrents_digger : Torrents Digger searches already available torrents from internet. #itsdesktopapp
 ◆ torrenttools : Cli tool to inspect/create/edit BitTorrent metafiles. #itsdesktopapp
+◆ torrserver : Torrent stream server, a program that allows users to view torrents online without the need for preliminary file downloading. The core functionality of TorrServer includes caching torrents and subsequent data transfer via the HTTP protocol, allowing the cache size to be adjusted according to the system parameters and the user's internet connection speed. #itsdesktopapp
 ◆ torzu : Unofficial AppImage of Torzu (fork of yuzu), with optimized builds for modern cpus. #itsdesktopapp
 ◆ touchhle : Unofficial, High-level emulator for iPhone OS apps. #itsdesktopapp
 ◆ trackaudio : A next generation Audio-For-VATSIM ATC Client. #itsdesktopapp
@@ -2521,6 +2559,7 @@
 ◆ unofficial-homestuck-collection : An offline collection of Homestuck and its related works. #itsdesktopapp
 ◆ unofficial-zalo : Unofficial Zalo App. #itsdesktopapp
 ◆ unreel : A GUI to create Reveal presentations. #itsdesktopapp
+◆ unsloth-desktop : Unsloth Desktop is a free, open-source app for running and training AI models on your own local hardware. #itsdesktopapp
 ◆ unyo : Anime streaming and Manga reader desktop app without ads. #itsdesktopapp
 ◆ updatedeployqt : Tool to deploy auto update for qt applications. #itsdesktopapp
 ◆ upnote : Stay focused and productive with a clean and clutter-free note space. #itsdesktopapp
@@ -2595,6 +2634,7 @@
 ◆ voidsprite : Free pixelart editor. #itsdesktopapp
 ◆ vokoscreenng : Unofficial,  a powerful screencast creator. #itsdesktopapp
 ◆ volaris : Volaris-Gui is the wrapper for Volaris, a secure file encryption software. #itsdesktopapp
+◆ voyager : A beautiful app for Lemmy and Piefed. #itsdesktopapp
 ◆ vpaint : Experimental vector graphics and 2D animation editor. #itsdesktopapp
 ◆ vrcft-avalonia : Cross-platform VRCFaceTracking made with Avalonia. #itsdesktopapp
 ◆ vrcx : Friendship management tool for VRChat. #itsdesktopapp
@@ -2615,7 +2655,9 @@
 ◆ watchit : Open movies everywhere. #itsdesktopapp
 ◆ waterfox : A privacy-focused web browser engineered to give you speed, control, and peace of mind on the internet. #itsdesktopapp
 ◆ waveflow : Spotify-style desktop music player for your local library. Lock-free Rust audio (FLAC/MP3/DSD up to DSD1024), 6-band EQ, ReplayGain, gapless, crossfade, synced lyrics (LRCLIB), Last.fm scrobbling, DLNA server. #itsdesktopapp
+◆ waveterm : An open-source, AI-integrated, cross-platform terminal for seamless workflows. #itsdesktopapp
 ◆ waydroid-helper : App that provides a user-friendly way to configure Waydroid and install extensions, including Magisk and ARM translation (android). #itsdesktopapp
+◆ waywallen : A dynamic wallpaper manager for linux desktops. #itsdesktopapp
 ◆ wazo-desktop : Wazo desktop client for wazo VOIP server. #itsdesktopapp
 ◆ weakauras : App to provide missing link between Wago.io and World of Warcraft. #itsdesktopapp
 ◆ weatherdump : A WeatherDump GUI. #itsdesktopapp
@@ -2665,6 +2707,7 @@
 ◆ wireshark : Unofficial, the world's most popular network protocol analyze. #itsdesktopapp
 ◆ wishdemo : A μ Tcl/Tk distribution statically linked, AppImage. #itsdesktopapp
 ◆ wives : A beautiful, modern & feature-rich Terminal Emulator. #itsdesktopapp
+◆ wizestream : .Electron based private streaming client. #itsdesktopapp
 ◆ wiznoteplus : The third party that supports the plug-in is Zhinote client. #itsdesktopapp
 ◆ wled-gui : Cross-platform desktop app for WLED. #itsdesktopapp
 ◆ wlx-overlay-s : Access your Wayland/X11 desktop from Monado/WiVRn/SteamVR. #itsdesktopapp
@@ -2680,6 +2723,7 @@
 ◆ wootomation : The official Wooting Macros software. #itsdesktopapp
 ◆ wora : A beautiful player for audiophiles. #itsdesktopapp
 ◆ workflowy : A notetaking tool. #itsdesktopapp
+◆ workrave : A program that assists in the recovery and prevention of Repetitive Strain Injury (RSI). The program frequently alerts you to take micro-pauses, rest breaks and restricts you to your daily limit. #itsdesktopapp
 ◆ world-monitor : Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface. #itsdesktopapp
 ◆ wournal : Simple "digitial paper" for note taking and PDF annotation. Heavily inspired by Xournal. #itsdesktopapp
 ◆ wowup : WowUp the World of Warcraft addon updater. #itsdesktopapp
@@ -2700,6 +2744,7 @@
 ◆ xash3d-fwgs-enhanced : Unofficial, a game engine aimed to provide compatibility with Half-Life Engine and extend it. #itsdesktopapp
 ◆ xbydriver : Xiaobaiyang Cloud Drive - Powered by Alibaba Cloud Drive. #itsdesktopapp
 ◆ xchat : Chat with other people using Internet Relay Chat. #itsdesktopapp
+◆ xclicker : XClicker - Fast GUI autoclicker for x11 linux desktops. #itsdesktopapp
 ◆ xclock : Unofficial AppImage of xclock. #itsdesktopapp
 ◆ xcloud-desktop : An unofficial desktop app for the XCloud web beta. #itsdesktopapp
 ◆ xde : The Expo Development Environment. #itsdesktopapp

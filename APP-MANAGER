@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-AMVERSION="10.3-3"
+AMVERSION="10.4.1"
 
 # Determine main repository and branch
 AMREPO="https://raw.githubusercontent.com/ivan-hc/AM/main"
@@ -15,6 +15,31 @@ CLI_PATH="$(readlink -f "$0")"
 ARCH="$(uname -m)"
 [ "$ARCH" = "amd64" ] && ARCH=x86_64
 export ARCH
+
+# Substitute read function (with auto-yes)
+_read() {
+	local prompt="$1"
+	local var_name="$2"
+	local results=""
+	if [[ "$default_yes" == true ]]; then
+		# If variable name is 'yn', default to 'y'
+		if [[ "$var_name" == "yn" ]]; then
+			results="y"
+		# If variable name is 'choice', default to '1'
+		elif [[ "$var_name" == "choice" ]]; then
+			results="1"
+		# If variable name is 'yn_abort', default to 'n' to abort the AM command
+		elif [[ "$var_name" == "yn_abort" ]]; then
+			results="n"
+		# If variable name is 'choice_abort', default to '0' to abort the AM command
+		elif [[ "$var_name" == "choice_abort" ]]; then
+			results="0"
+		fi
+	else
+		read -r -ep "$prompt" results
+	fi
+	eval "$var_name='$results'"
+}
 
 # Substitute host dependencies for native shell built-ins
 basename() {
@@ -220,7 +245,7 @@ _use_translate() {
 	echo "$DIVIDING_LINE"
 	if [ -z "$2" ]; then
 		printf $"Add a suitable locale code, for example \"it\" for Italian, or use the system language - \"auto\"\n\n" | _fit | grep .
-		read -r -ep $" Leave blank to use \"$CLI\" in English: " amlocale
+		_read $" Leave blank to use \"$CLI\" in English: " amlocale
 		if [ -z "$amlocale" ] || [ "$amlocale" = "en" ]; then
 			iso_code="en"
 			mkdir -p "$DATADIR/AM" && echo "en" > "$DATADIR/AM/locale"
@@ -347,7 +372,7 @@ _appman_check() {
 			echo "$DIVIDING_LINE"
 			echo "$APPMAN_SETUP_MSG" | _fit
 			echo "$DIVIDING_LINE"
-			read -r -ep $" Write the path or just press enter to use default:$(printf "\n\n ")" location
+			_read $" Write the path or just press enter to use default:$(printf "\n\n ")" location
 		else
 			location="$appman_location"
 		fi
@@ -509,9 +534,9 @@ _determine_argpath() {
 			i=$((i + 1))
 		done)" | _fit
 		printf "\n"
-		read -r -p " Type a number and press ENTER: " response
-		response=$(echo "$argpath_items" | awk '{print $'"$response"'}')
-		argpath="$response"
+		_read " Type a number and press ENTER: " choice
+		choice=$(echo "$argpath_items" | awk '{print $'"$choice"'}')
+		argpath="$choice"
 		[ ! -d "$argpath" ] && printf "\n 💀 ERROR, invalid selection! \n\n" && argpath=""
 	else
 		argpath=$(echo "$ARGPATHS" | grep "/$arg$")
@@ -627,13 +652,13 @@ if [ "$ARCH" = aarch64 ] || [ "$ARCH" = x86_64 ]; then
 			if [ -d "$CACHEDIR"/AMCACHEPATH/"$name" ] || [ -L "$CACHEDIR"/AMCACHEPATH/"$name" ] || ! head -c 4 "$CACHEDIR"/AMCACHEPATH/"$name" 2>/dev/null | grep -q $'\x7fELF' || [ ! -f "$CACHEDIR"/AMCACHEPATH/"$name" ]; then
 				rm -Rf "$CACHEDIR"/AMCACHEPATH/"$name"
 				case $name in
-  					'column'|'du'|'mv')
-  						if ! "$name" --version 2>/dev/null; then
-  							_collect_fallback_dependencies
-  						fi
-  						;;
-  				esac
-  			fi
+					'column'|'du'|'mv')
+						if ! "$name" --version 2>/dev/null; then
+							_collect_fallback_dependencies
+						fi
+						;;
+				esac
+			fi
 		fi
 	done
 	if [ -n "$fallback_binaries_needed" ] && [ ! -f "$AMDATADIR"/disable-dependencies-prompt ]; then
@@ -645,18 +670,29 @@ if [ "$ARCH" = aarch64 ] || [ "$ARCH" = x86_64 ]; then
 			fi
 		done
 		if [ -n "$fallback_binaries_needed" ]; then
-			printf "%b\n%b:\n %b\n%b\n\033[0m\n%b\n\n" "$DIVIDING_LINE" "$missing_cmd_msg_header" "${Green}" "$fallback_binaries_needed" "$missing_cmd_msg_footer" | _fit
-			read -r -p $" Do you wish to continue? (N/y): " yn
-			if echo "$yn" | grep -qi "^y"; then
+			# Set amdeps_on=true to download fallback dependencies not interactively
+			if [ "$amdeps_on" = true ]; then
 				printf "\n"
 				_online_check
 				for name in $fallback_binaries_needed; do
 					_deps_dl && chmod a+x "$CACHEDIR"/AMCACHEPATH/"$name" && printf $" - %b, downloaded from https://github.com/ivan-hc/am-utils\n" "$name" &
 				done
 				wait
-				printf "\n%b\n" "$DIVIDING_LINE"
+				printf "\n"
 			else
-				[ ! -f "$AMDATADIR"/disable-dependencies-prompt ] && touch "$AMDATADIR"/disable-dependencies-prompt
+				printf "%b\n%b:\n %b\n%b\n\033[0m\n%b\n\n" "$DIVIDING_LINE" "$missing_cmd_msg_header" "${Green}" "$fallback_binaries_needed" "$missing_cmd_msg_footer" | _fit
+				_read $" Do you wish to continue? (N/y): " yn
+				if echo "$yn" | grep -qi "^y"; then
+					printf "\n"
+					_online_check
+					for name in $fallback_binaries_needed; do
+						_deps_dl && chmod a+x "$CACHEDIR"/AMCACHEPATH/"$name" && printf $" - %b, downloaded from https://github.com/ivan-hc/am-utils\n" "$name" &
+					done
+					wait
+					printf "\n%b\n" "$DIVIDING_LINE"
+				else
+					[ ! -f "$AMDATADIR"/disable-dependencies-prompt ] && touch "$AMDATADIR"/disable-dependencies-prompt
+				fi
 			fi
 		fi
 	elif [ -z "$fallback_binaries_needed" ] && [ -f "$AMDATADIR"/disable-dependencies-prompt ]; then
@@ -672,15 +708,15 @@ if [ "$ARCH" = aarch64 ] || [ "$ARCH" = x86_64 ]; then
 		if command -v "$name" >/dev/null 2>&1; then
 			if uname | grep -q BSD; then
 				case $name in
-  					'column'|'du'|'mv')
-  						if "$name" --version >/dev/null 2>&1; then
-  							rm -Rf "$CACHEDIR"/AMCACHEPATH/"$name"
-  						fi
-  						;;
-  					*)
-  						rm -Rf "$CACHEDIR"/AMCACHEPATH/"$name"
-  						;;
-  				esac
+					'column'|'du'|'mv')
+						if "$name" --version >/dev/null 2>&1; then
+							rm -Rf "$CACHEDIR"/AMCACHEPATH/"$name"
+						fi
+						;;
+					*)
+						rm -Rf "$CACHEDIR"/AMCACHEPATH/"$name"
+						;;
+				esac
 			else
 				if [ -f "$CACHEDIR"/AMCACHEPATH/"$name" ]; then
 					rm -Rf "$CACHEDIR"/AMCACHEPATH/"$name"
@@ -983,7 +1019,7 @@ fi
 # COMPLETION LIST
 available_options="about add apikey backup clean clone config disable downgrade download enable extra files hide home icons info \
 	install install-appimage integrate launcher list lock neodb newrepo nolibfuse off on overwrite purge query reinstall relocate remove sandbox \
-	search select sync template test translate unhide unlock update upgrade --all --appimages --apps --byname --clone --config --convert --debug \
+	search select sync template test translate unhide unlock update upgrade --all --appimages --apps --assume-yes --byname --clone --config --convert --debug \
 	--devmode-disable --devmode-enable --disable-notifications --enable-notifications --force-latest --help --home --icons \
 	-ias --launcher --less --pkg --portable --rollback --disable-sandbox --relocate --sandbox --system --translate --user $third_party_flags"
 
@@ -1042,8 +1078,8 @@ if [ "$CLI_PATH" != "/usr/bin/am" ]; then
 		if [ -f "${ZDOTDIR:-$HOME}"/.zshrc ] && echo "$SHELL" | grep -q "zsh"; then
 			if ! grep -q "$completion_file" "${ZDOTDIR:-$HOME}"/.zshrc && [ ! -f "$AMDATADIR"/zsh-completion-off ]; then
 				printf $"Zsh completion requires editing the main configuration file, but it may cause problems.\nSee https://github.com/ivan-hc/AM/issues/1843\n" | _fit
-				read -r -p $"Want to proceed anyway? (y,N)" response
-				if echo "$response" | grep -qi "^y"; then
+				_read $"Want to proceed anyway? (y,N)" yn
+				if echo "$yn" | grep -qi "^y"; then
 					cat <<-HEREDOC >> "${ZDOTDIR:-$HOME}"/.zshrc
 					autoload bashcompinit
 					bashcompinit
@@ -1359,7 +1395,7 @@ _use_appman() {
 	_online_check
 	[ "$CLI" = appman ] && echo $" This function only works for AM" && exit 0
 	printf "%b\n" "$APPMAN_MSG_THINK" | _fit
-	read -r -p $" Do you wish to enter \"AppMan Mode\" (y,N)?" yn
+	_read $" Do you wish to enter \"AppMan Mode\" (y,N)?" yn
 	if ! echo "$yn" | grep -i '^y' >/dev/null 2>&1; then
 		echo "$DIVIDING_LINE"
 	else
@@ -1375,7 +1411,7 @@ if [ "$AMCLI" = am ]; then
 		_appman
 		AMCLIPATH="$CLI_PATH"
 	elif [ ! -w "$AMPATH" ]; then
-		read -r -p $" \"AM\" is read-only, want to use it in \"AppMan Mode\" (Y,n)? " yn
+		_read $" \"AM\" is read-only, want to use it in \"AppMan Mode\" (Y,n)? " yn
 		if echo "$yn" | grep -i '^n' >/dev/null 2>&1; then
 			exit 0
 		else
@@ -1573,7 +1609,7 @@ _use_clone() {
 		_clone_show_items_msg "$@"
 
 		if echo "$@" | grep -oq -- "install\|-i"; then
-			read -r -p $" Do you want to install the set of programs listed above (y,N)?" yn
+			_read $" Do you want to install the set of programs listed above (y,N)?" yn
 			if ! echo "$yn" | grep -i '^y' >/dev/null 2>&1; then
 				echo "$DIVIDING_LINE"
 			else
@@ -1595,7 +1631,7 @@ _use_relocate() {
 	else
 		APPMAN_APPSPATH=$(sort "$APPMANCONFIG/appman-config")
 		printf $"The local path currently in use for programs is as follows:\n\n%b\n\n" "$APPMAN_APPSPATH" | _fit
-		read -r -p $" Do you want to remove and re-install everything to a new location (y,N)?" yn
+		_read $" Do you want to remove and re-install everything to a new location (y,N)?" yn
 		if echo "$yn" | grep -i '^y' >/dev/null 2>&1; then
 			AMCLIPATH_ORIGIN="$AMCLIPATH"
 			rm -f "$SCRIPTDIR"/am-clone.source
@@ -1606,6 +1642,10 @@ _use_relocate() {
 			if [ -n "$APPMAN_APPS_OLD" ]; then
 				for arg in $APPMAN_APPS_OLD; do
 					appname=$(echo "$arg" | sed 's:.*/::')
+					portable_dirs="cache config home share"
+					for d in $portable_dirs; do
+						[ -d "$arg"/"$appname.$d" ] && mkdir -p "$SCRIPTDIR"/relocate-backups && cp -r "$arg"/"$appname.$d" "$SCRIPTDIR"/relocate-backups/"$appname.$d"
+					done
 					"$AMCLIPATH_ORIGIN" -R "$appname"
 				done
 			fi
@@ -1613,6 +1653,12 @@ _use_relocate() {
 			_appman
 			APPMAN_APPS_NEW=$(sort -u "$SCRIPTDIR"/am-clone.source.appman | sed 's:.*/::' | xargs)
 			"$AMCLIPATH_ORIGIN" -i --user "$APPMAN_APPS_NEW"
+			for appname in $APPMAN_APPS_NEW; do
+				portable_dirs="cache config home share"
+				for d in $portable_dirs; do
+					[ -d "$SCRIPTDIR"/relocate-backups/"$appname.$d" ] && cp -r "$SCRIPTDIR"/relocate-backups/"$appname.$d" "$APPSPATH"/"$appname"/"$appname.$d"
+				done
+			done
 		fi
 
 	fi
@@ -2123,12 +2169,12 @@ _use_update() {
 }
 
 _use_force_latest() {
-  	_online_check
-  	_determine_args
+	_online_check
+	_determine_args
 	ENTRIES="$(echo "$@" | cut -f2- -d ' ')"
-  	for arg in $ENTRIES; do
-	  	_determine_argpath
-	  	if [ ! -d "$argpath" ]; then
+	for arg in $ENTRIES; do
+		_determine_argpath
+		if [ ! -d "$argpath" ]; then
 			echo $" ERROR: \"$arg\" is not installed, see \"-f\""
 		elif [ ! -f "$argpath"/AM-updater ]; then
 			echo $" ERROR: \"$AMCLI\" cannot manage updates for \"$arg\""
@@ -2173,6 +2219,13 @@ _use_module() {
 	fi
 }
 
+# Parse for global switches and remove them
+if [[ "$1" == "-y" || "$1" == "--assume-yes" ]]; then
+	default_yes=true
+	shift
+fi
+
+# Parse main command
 case "$1" in
 	'')
 		echo "$DIVIDING_LINE"
@@ -2314,7 +2367,7 @@ case "$1" in
 
 			You can also set the path to a custom file by exporting the \$CLONE_FILE variable.")
 		description_config=$(echo $"Description: Set a dedicated \$XDG_CONFIG_HOME for one or more AppImages.")
-		description_downgrade=$(echo $"Description: Download an older or specific app version.")
+		description_downgrade=$(echo $"Description: Download a previous or specific version of an already installed app.")
 		description_download=$(echo $"Description: Download one or more installation scripts to your desktop or convert them to local installers for \"AppMan\". To test the scripts, use the \"$AMCLI -i '/path/to/script'\" command or enter the directory of the script and run the \"$AMCLI -i ./script\" command, even using dedicated flags, if necessary (see \"-i\").")
 		description_extra=$(echo $"Description: Install AppImages from github.com, outside the database. This allows you to install, update and manage them all like the others. Where \"user/project\" can be the whole URL to the github repository, give a name to the program so that it can be used from the command line. Optionally, add an \"univoque\" keyword if multiple AppImages are listed.")
 		description_files=$(echo $"Description: Shows the list of all installed programs, with sizes. By default apps are sorted by size, use \"--byname\" to sort by name. With the option \"--less\" it shows only the number of installed apps. Option \"-fi\" only shows installed apps, not the AppImages integrated with the \"--launcher\" option.")
@@ -2348,6 +2401,7 @@ case "$1" in
 		description_unlock=$(echo $"Description: Unlock updates for the selected program (nulls \"lock\").")
 		description_update=$(echo $"Description: Update everything. Add \"--apps\" to update only the apps or write only the apps you want to update by adding their names. Add the \"--debug\" flag to view the output of AM-updater scripts. Add the \"--launcher\" flag to try to update only local AppImages integrated with the \"--launcher\" option (see \"--launcher\").")
 		description_version=$(echo $"Description: Shows the version.")
+		description_assumeyes=$(echo $"Description: Add this option before other options. If a command requires manual confirmation from the user, it will be executed non-interactively, where allowed.")
 		description_devmode_disable=$(echo $"Description: Undo \"--devmode-enable\" (see below).")
 		description_devmode_enable=$(echo $"Description: Use the development branch (at your own risk).")
 		description_disable_notifications=$(echo $"Description: Disable notifications during apps update.")
@@ -2632,6 +2686,13 @@ case "$1" in
 					${LightBlue}$AMCLI -v\033[0m
 
 			$description_version
+
+			${Gold}--assume-yes, -y\033[0m
+
+					${LightBlue}am -y {$_OPTION}\033[0m
+					${LightBlue}am -y {$_OPTION} {$_PROGRAM}\033[0m
+
+			$description_assumeyes
 
 			${Gold}--devmode-disable\033[0m
 

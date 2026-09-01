@@ -15,6 +15,7 @@
 ◆ appimagetool : Tool to generate an AppImage from an existing AppDir.
 ◆ appimageupdatetool : Tool to update an AppImage using embedded information.
 ◆ appmanager : MacOS style AppImage installer and management application.
+◆ asyar : A fast, open-source launcher with the power of Raycast, speed of Alfred and privacy by design.
 ◆ audacious : Unofficial, a lightweight and versatile audio player.
 ◆ audacity-enhanced : Unofficial, multiplatform Audio Editor.
 ◆ audio-sharing : Unofficial. Share audio from the desktop on local network using RTSP protocol.
@@ -41,7 +42,9 @@
 ◆ citron-nightly : The switch fell off https://citron-neo.org/.
 ◆ clapper : Unofficial. A modern media player designed for simplicity and ease of use.
 ◆ classicube : Unofficial, Custom Minecraft Classic / ClassiCube client written in C from scratch
+◆ classin : Unofficial AppImage wrapper for ClassIn.
 ◆ claude-desktop : Unofficial, Claude is a next generation AI assistant built by Anthropic and trained to be safe, accurate, and secure to help you do your best work.
+◆ cli-chess : A highly customizable way to play chess in your terminal. Supports playing online (via Lichess.org) and offline against the Fairy-Stockfish engine. All Lichess variants are supported.
 ◆ clk : Unofficial, a latency hating emulator for 8 and 16 bit platforms.
 ◆ clownmdemu-enhanced : Unofficial, reference standalone frontend for clownmdemu.
 ◆ codeburn : Free, local tool to track AI coding token usage and cost across 31 tools and agents (Claude Code, Cursor, Codex, Gemini and more), by model, project, and task.
@@ -49,15 +52,19 @@
 ◆ collision : Unofficial. Verify the checksum/hash validity of files.
 ◆ commander-genius : Unofficial, an open-source interpreter for the Commander Keen (1-6, Dreams) and Cosmos Cosmic series.
 ◆ copyq : Unofficial, an advanced clipboard manager with powerful editing and scripting features.
+◆ copyq-enhanced : Unofficial AppImage of CopyQ Fork made using the Anylinux-AppImages tools.
 ◆ corsixth-enhanced : Unofficial, open source clone of Theme Hospital.
 ◆ crispy-doom : Unofficial, a limit-removing enhanced-resolution Doom source port based on Chocolate Doom.
 ◆ cromagrally-enhanced : Unofficial, the wildest racing game since man invented the wheel!
+◆ crossdirstat : Free open-source cross-platform file & directory statistics.
 ◆ crossmobile : Create native iOS/Android/Windows apps in Java.
 ◆ cuberite : Unofficial, a lightweight, fast and extensible game server for Minecraft.
 ◆ cursor-cli : Unofficial, AI-assisted development CLI tool.
 ◆ d1x-rebirth : Unofficial, a source port of the Descent engine.
 ◆ d2x-rebirth : Unofficial, a source port of the Descent 2 engine.
+◆ dabri : Minimalist, privacy-first, offline Speech-to-Text (STT) application.
 ◆ darkplaces : Unofficial, the DarkPlaces Quake engine, created by LadyHavoc.
+◆ dashbeam : Peer-to-peer encrypted files and folders transfer tool to anywhere in the world - any format, no accounts, no restrictions.
 ◆ dealers-choice : A cross-platform, networked multiplayer poker game supporting draw, stud, and community-card variants, including Texas.
 ◆ dethrace : Unofficial, reverse engineering the 1997 game "Carmageddon".
 ◆ devilutionx-enhanced : Unofficial, Diablo build for modern operating systems.
@@ -69,8 +76,10 @@
 ◆ dosemu : Run DOS programs under linux.
 ◆ dr-robotniks-ring-racers : Unofficial, kart racing video game originally based on SRB2Kart.
 ◆ drally : Unofficial, a port of Death Rally (1996).
+◆ draw.io : draw.io desktop.
 ◆ drum-machine : Unofficial, Application for managing and playing with drum patterns.
 ◆ duckstation-gpl-enhanced : Unofficial, fast PlayStation 1 emulator when it was still using GPLv3.
+◆ duplicati : Store securely encrypted backups on cloud storage services.
 ◆ easykiconverter : Convert components for KiCad
 ◆ ecwolf : Unofficial, advanced port of Wolfenstein 3D based off of Wolf4SDL.
 ◆ edconv : A user-friendly FFmpeg GUI.
@@ -151,11 +160,13 @@
 ◆ itr2025 : Appimage não oficial do ITR2025, declare seu imposto dos seus imóveis rurais (Ano-calendário 2025).
 ◆ jdownloader2 : JDownloader is a free download management tool with a huge community that makes downloading as easy and fast as it should be.
 ◆ kaffeine : Unofficial, Media player with support for digital television (DVB-C/S/S2/T, ATSC, CI/CAM).
+◆ kate : Unofficial Anylinux AppImage of Kate (and kwrite), a feature-packed text editor by KDE.
 ◆ keypunch : Unofficial, keyboard writing speed test application.
 ◆ kid3 : Unofficial, efficient audio tagger that supports a large variety of file formats.
 ◆ kikoplay : Full-Featured Danmu Player
 ◆ knights : Unofficial, KDE's chess game frontend.
 ◆ kronos : Unofficial, Sega Saturn emulator.
+◆ lap : An offline-first photo manager for large local libraries.
 ◆ lapce : Lightning-fast and Powerful Code Editor written in Rust.
 ◆ lba2-classic-community : Unofficial, a community fork for evolving and modernizing LBA2 source port.
 ◆ legcord : Legcord is a custom client designed to enhance your Discord experience while keeping everything lightweight.
@@ -163,10 +174,12 @@
 ◆ libation : Unofficial, application for downloading and managing your Audible audiobooks.
 ◆ librewolf : Firefox-based Web Browser focused on privacy, security, freedom.
 ◆ linuxdeploy : AppDir creation and maintenance tool. Featuring flexible plugin system.
+◆ linuxqq : Tencent QQ (Chinese: 腾讯QQ), also known as QQ, is an instant messaging software service and web portal developed by the Chinese technology company Tencent.
 ◆ ltx-desktop : An open-source desktop app for generating videos with LTX models.
 ◆ mages : Multiplatform Matrix chat client (experimental CMP+rust app).
 ◆ mariokart64recomp : Unofficial, a native port of MarioKart 64, statically recompiled.
 ◆ melonds-enhanced : Unofficial, AppImage of melonDS which is able to work on any linux distro.
+◆ meru : Unofficial Gmail desktop app.
 ◆ mgba-enhanced : Unofficial, Game Boy Advance Emulator.
 ◆ mini-vmac : Unofficial, a miniature Macintosh 68K emulator.
 ◆ miniter : Rust based non-linear video editor for basic tasks.
@@ -174,6 +187,8 @@
 ◆ moon-lander : Moon Lander is a 2D game of gravity.  Land your ship on the lading pad.
 ◆ motrix-next : A full-featured download manager rebuilt from the ground up.
 ◆ mousai : Unofficial. Application for identifying songs using libre utilities.
+◆ mpv-nightly : Unofficial nightly build, A free, open source, and cross-platform media player.
+◆ mpz : Folder player for big local music collections.
 ◆ music-assistant : The desktop companion app for Music Assistant.
 ◆ nanosaur : Pangea Software’s game, adventure of a cybernetic dinosaur.
 ◆ nblood : Unofficial, blood port based on EDuke32.
@@ -184,7 +199,7 @@
 ◆ nexen : Multi-system emulator (NES, SNES, GB, GBA, PCE, SMS/GG, WS).
 ◆ nexis : Linux & macOS system optimizer and monitor. Qt6 fork of Stacer with GPU monitoring, dark/light themes, and active maintenance.
 ◆ nomacs : Unofficial, nomacs is a free, open source image viewer, which supports multiple platforms.
-◆ notepadqq : A simple, general-purpose editor for Linux and MacOS.
+◆ notepadqq : A simple, general-purpose editor designed by developers, for developers.
 ◆ nugget-doom-enhanced : Unofficial, a Doom source port forked from Woof! with additional features.
 ◆ nvim : NeoVim, Vim fork focused on extensibility and usability.
 ◆ nvim-nightly : NeoVim, Vim fork, the most recent development build.
@@ -194,10 +209,12 @@
 ◆ offline-translator : Qt based app for text and image translation completely offline using on-device Firefox translation models.
 ◆ okteta : Unofficial. Hex editor for viewing and editing the raw data of files.
 ◆ omniget : Media downloader from various websites.
+◆ open-video-downloader : Open Video Downloader - A cross-platform GUI for youtube-dl made in Rust with Tauri and Vue + Typescript.
 ◆ openclaw : Unofficial, reimplementation of Captain Claw (1997) platformer.
 ◆ opencode : The open source coding agent.
 ◆ opencode-cli : Unofficial AppImage of the opencode CLI utility. The open source coding agent.
 ◆ opencode-enhanced : Unofficial, improved AppImage of opencode, the open source coding agent.
+◆ openhuman : Your personal AI super intelligence - a brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher.
 ◆ openjazz : Unofficial, open-source version of the classic Jazz Jackrabbit™ games.
 ◆ openlara : Unofficial, classic Tomb Raider open-source engine.
 ◆ openloco : Unofficial, an open source re-implementation of Chris Sawyer's Locomotion.
@@ -229,7 +246,9 @@
 ◆ postal : Unofficial, Postal a quirky FPS shooter.
 ◆ prey2006 : Unofficial, Prey 2006 SDK integrated with Doom 3 GPL release.
 ◆ prismlauncher-enhanced : Unofficial, a custom launcher for Minecraft that allows you to easily manage multiple installations of Minecraft at once (Fork of MultiMC).
+◆ privacynotes : End-to-end encrypted notes, tasks and journal, keyed by a 12-word BIP-39 phrase: no email, no password, no account to leak.
 ◆ protocol_10 : A mod decompiler for frosty tool suite.
+◆ protonplus : A modern compatibility tools manager.
 ◆ pyglossary : Unofficial, A tool for converting dictionary files aka glossaries.
 ◆ python : AppImage distributions of Python, an interactive high-level object-oriented language.
 ◆ qarma : Unofficial, Qarma is a tool to create dialog boxes, based on Qt. It's a clone of Zenity.
@@ -277,6 +296,7 @@
 ◆ songrec : Unofficial, an open-source Shazam client for Linux.
 ◆ sonic-3-air : Unofficial, Source and data to build Sonic 3 A.I.R. (Angel Island Revisited) and the Oxygen Engine.
 ◆ sonic-mania-decompilation : Unofficial, a complete decompilation of Sonic Mania (2017).
+◆ sourcegit : Opensource Git GUI client.
 ◆ spaghettikart-enhanced : Unofficial, Mario Kart 64 PC game Port.
 ◆ sponge-hash-aes256 : A sponge-based secure hash function that uses AES-256 as its internal PRF.
 ◆ srb2 : Unofficial, a 3D Sonic the Hedgehog fangame based on a modified version of Doom Legacy.
@@ -300,6 +320,7 @@
 ◆ tev : High dynamic range (HDR) image viewer for people who care about colors.
 ◆ tinywiibackupmanager : A tiny game backup and homebrew app manager for the Wii.
 ◆ tokodon : Unofficial, a modern client for Mastodon and other decentralized servers that implement its API (such as Pixelfed).
+◆ torrserver : Torrent stream server, a program that allows users to view torrents online without the need for preliminary file downloading. The core functionality of TorrServer includes caching torrents and subsequent data transfer via the HTTP protocol, allowing the cache size to be adjusted according to the system parameters and the user's internet connection speed.
 ◆ trelby : Unofficial, Trelby is simple, fast and elegantly laid out to make screenwriting simple.
 ◆ tuxfootball : Unofficial, is a great 2D football game for Windows and Linux.
 ◆ tuxpuck : Unofficial, hockey-like table game.
@@ -310,10 +331,12 @@
 ◆ vivaldi-snapshot : Unofficial. Advanced Web Browser, Testing Version.
 ◆ vivaldi-stable : Unofficial. Advanced Web Browser, Stable Version.
 ◆ vokoscreenng : Unofficial,  a powerful screencast creator.
+◆ voyager : A beautiful app for Lemmy and Piefed.
 ◆ walletwasabi : Wasabi is an open-source, non-custodial, privacy-focused Bitcoin wallet for desktop, that implements trustless multi-party transactions over the Tor anonymity network.
 ◆ warp : Unofficial. Fast and secure file transfer through internet or local network exchanging a word-based code.
 ◆ wattage : Monitor power devices.
 ◆ waveterm : An open-source, AI-integrated, cross-platform terminal for seamless workflows.
+◆ waywallen : A dynamic wallpaper manager for linux desktops.
 ◆ webamp-desktop-enhanced : Unofficial, experimental cross-platform desktop version of Winamp 2.9 reimplementation in electron.
 ◆ webcamoid : Unofficial. A multi-platform camera capture app focused on providing all major features required by power users with a very simple and intuitive interface.
 ◆ webcord-enhanced : Unofficial, A Discord and Fosscord client implemented without Discord API.
@@ -321,9 +344,12 @@
 ◆ whatsie : Unofficial, feature rich WhatsApp web client based on Qt WebEngine.
 ◆ wikilynx : A simple game browser made using Qt C++ for playing wikipedia speed-runs the right way.
 ◆ wipeout-rewrite : Unofficial, re-implementation of the 1995 PSX game wipEout.
+◆ wizestream : .Electron based private streaming client.
+◆ workrave : A program that assists in the recovery and prevention of Repetitive Strain Injury (RSI). The program frequently alerts you to take micro-pauses, rest breaks and restricts you to your daily limit.
 ◆ world-monitor : Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface.
 ◆ xash3d-fwgs : A game engine aimed to provide compatibility with Half-Life Engine and extend it.
 ◆ xash3d-fwgs-enhanced : Unofficial, a game engine aimed to provide compatibility with Half-Life Engine and extend it.
+◆ xclicker : XClicker - Fast GUI autoclicker for x11 linux desktops.
 ◆ xemu-enhanced : Unofficial, original Xbox Emulator for Windows, macOS, and Linux (Active Development).
 ◆ xeyes : Unofficial, a "follow the mouse" X demo, using the X SHAPE extension.
 ◆ xiphos : Unofficial, a Bible study tool using GTK.

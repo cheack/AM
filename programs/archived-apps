@@ -51,15 +51,16 @@ exe
 fakedata
 fetchit
 file-to-c
+filebrowser
 fishing-funds
 fontlet
 freeman
 freezer
 friction
 fukayo
-gameconqueror
 gamehub
 ganache
+gdlauncher
 gltf-insight
 glyphr-studio-desktop
 gnome-tweaks
@@ -68,7 +69,6 @@ google-tasks-desktop
 graphql-playground
 graviton
 guiscrcpy
-hamsket
 hapee
 highlite
 hyperspace
@@ -77,7 +77,6 @@ imapsyncclient
 impact
 inboxer
 innerbreeze
-insomnium
 intiface
 irccloud-desktop
 jira-timer
@@ -85,6 +84,7 @@ joy2droidx
 jscad-desktop
 kage
 kaidan
+kanji-dojo
 kiku
 launcher
 led.custom.palette
@@ -127,15 +127,16 @@ parity-fether
 patchwork
 pathephone
 pext
+phantom-satellite
 pia
 picocrypt-ng
 pigs-n-cows
 pile
 playbox
+plotly-orca
 pocketcasts-electron
 poe-ladder
 promethium
-protonmail-desktop
 qawl
 qikqr
 qortal-ui
@@ -145,7 +146,6 @@ radix-wallet
 rainbow-board
 rclone-browser
 rclone-gui-manager
-real-video-enhancer
 rebaslight
 reor
 ridereceipts

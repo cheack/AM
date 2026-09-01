@@ -347,7 +347,10 @@ or
 ```
 appman_location=/path/to/directory appman
 ```
+
 NOTE: This only works if the configuration file doesn't exist.
+
+The value of `$appman_location` can be a full path or the name of a directory (with any subdirectories). For example, to set the "Applications" directory to $HOME, simply type "Applications." The path will be automatically populated in the configuration file `~/.config/appman/appman-config`.
 
 ------------------------------------------------------------------------
 ### What programs can be installed
@@ -387,7 +390,7 @@ Because of this, I have made some essential variables "customizable":
 - `APPSDB`, i.e. the "raw" directory of the architecture in use, containing the installation scripts (default value *https://raw.githubusercontent.com/ivan-hc/AM/main/programs/$ARCH*), this is mainly used in `-i`, `-d` and `-s`/`-u`
 - `APPSDBLIST`, i.e. the list of applications available for that architecture (default value *https://raw.githubusercontent.com/ivan-hc/AM/main/programs/$ARCH-apps*), this is used every time lists are updated, for example in `-l`, `-q` and `-s`/`-u`
 - `APPIMAGES_LIST`, i.e. the list of AppImages available in the database (default value *https://raw.githubusercontent.com/Portable-Linux-Apps/Portable-Linux-Apps.github.io/main/x86_64-appimages*), used in `-ia` and `-l`/`-q` with the `--appimages` flag
-- `AMCATALOGUEMARKDOWNS`, i.e. the pages in .md format from the catalog of applications available in this database (default value *https://portable-linux-apps.github.io/apps*, add an appname with extension .md to see the content of one file), this is used in `-a`
+- `AMCATALOGUEMARKDOWNS`, i.e. the pages in plain text format from the catalog of applications available in this database (default value *https://raw.githubusercontent.com/Portable-Linux-Apps/Portable-Linux-Apps.github.io/refs/heads/main/apps*, add an appname to see the content of one file), this is used in `-a`
 - `AMCATALOGUEICONS`, i.e. the icons in .png format available in the catalog of applications available in this database (default value *https://portable-linux-apps.github.io/icons*, add an appname with extension .png to see one file), this is used in `-i`, in case the installation script fails to get an icon for the application
 - `AMSYNC`, if set to "1" prevents AM from updating itself and updating modules when running `-s` or `-u`
 
@@ -611,7 +614,7 @@ Set a dedicated `$XDG_CONFIG_HOME` for one or more AppImages.
 
 **Description**:
 
-Download an older or specific app version.
+Download a previous or specific version of an already installed app.
 
 ------------------------------------------------------------------------
 ### `download`, `-d`
@@ -910,6 +913,16 @@ Update everything. Add "`--apps`" to update only the apps or write only the apps
 **Description**:
 
 Shows the version.
+
+------------------------------------------------------------------------
+### `--assume-yes`, `-y`
+
+		am -y {OPTION}
+		am -y {OPTION} {PROGRAM}
+
+**Description**:
+
+Add this option before other options. If a command requires manual confirmation from the user, it will be executed non-interactively, where allowed.
 
 ------------------------------------------------------------------------
 ### `--devmode-disable`
