@@ -45,6 +45,7 @@ autoedit2 2021
 avidemux 2022
 axe-electrum 2020
 axolotl 2024
+baijimangaviewer 2018
 bandwhich 2024
 barnacal 2020
 bat-extras 2024
@@ -216,6 +217,7 @@ ehdev-shell 2018
 eka2l1 2024
 eksplode.re 2020
 elcalc 2019
+eldumper 2019
 electrocrud 2023
 electron-app-store 2021
 electronreact 2023
@@ -315,6 +317,7 @@ ghrel 2023
 gibs 2018
 gifcurry 2020
 gingko 2020
+githoard 2020
 gitjournal 2021
 gitlight 2024
 gitnote 2019
@@ -356,11 +359,13 @@ hdrmerge 2019
 helioslauncher 2024
 henson 2024
 hermesmessenger 2019
+hexoclient 2020
 hexoeditor 2018
 hidpi-fixer 2023
 hilbish 2024
 houdoku 2024
 hpack 2019
+htmldoc 2018
 hugin 2021
 hugor 2022
 humanlog 2024
@@ -452,6 +457,7 @@ loginized 2020
 looofix 2022
 love 2024
 luna 2020
+m 2020
 macchina 2024
 magento2-upgrade-gui 2022
 magicfountain 2018
@@ -461,6 +467,7 @@ mangadesk 2022
 mangal 2023
 mangbandclient 2021
 manta 2018
+mark-mind 2021
 marlin-conf 2018
 martian 2019
 marvin 2023
@@ -475,6 +482,7 @@ mdl 2021
 mdsilo-app 2024
 mechtype 2024
 media-downloader 2024
+media-dupes 2020
 mediaelch 2024
 mellowplayer 2018
 melodie 2022
@@ -517,6 +525,7 @@ mp3-tagger 2022
 mp4grep 2023
 mqttcute 2019
 mqtt-explorer 2024
+mr.dclutterer 2020
 mrwriter 2021
 ms-365-electron 2024
 munt 2023
@@ -542,6 +551,7 @@ nanovault 2019
 nap 2022
 nault-bin 2023
 nazuna 2022
+ncsa-mosaic 2017
 nepaliunicode 2020
 newlogic 2019
 nextplayer 2020
@@ -570,6 +580,7 @@ notes-nc 2023
 nuclia 2024
 nxengine-evo 2023
 nxshell 2023
+nx-software-center 2024
 nyaa 2024
 nychess 2023
 # OBSOLETE SOURCES
@@ -579,6 +590,7 @@ oh 2023
 oh-mymd 2023
 olive 2024
 olive-legacy 2024
+ommpfritt 2021
 omnispeak 2024
 one-gpt 2023
 onlyrefs 2024
@@ -599,6 +611,7 @@ orange 2022
 osrs-tools 2019
 ostara 2023
 ottomatic 2023
+outline-client 2024
 overlayed 2024
 p2p-chat 2018
 p2pderivatives 2022
@@ -624,6 +637,7 @@ pelusica 2024
 pennywise 2019
 perl-executing-browser 2024
 pet 2024
+pext 2023
 pget 2023
 phinch 2023
 pho 2024
@@ -707,6 +721,7 @@ quickgui 2024
 quicknote 2024
 quickredis 2022
 quicktwitch 2018
+qv2ray 2021
 rabix-composer 2020
 radioit 2020
 radix-wallet 2020
@@ -745,6 +760,7 @@ sblauncher 2020
 scatter 2020
 scavengers 2019
 sc-controller 2022
+school-sections 2018
 scilab 2024
 scraper 2019
 scratux 2020
@@ -769,6 +785,8 @@ sideka 2018
 sidenote 2023
 sigmaspectra 2020
 silex-desktop 2022
+siliconsneaker 2021
+silverkey 2018
 simdock 2024
 simdsp 2018
 simplechroot 2019
@@ -836,6 +854,7 @@ subtitle-composer 2022
 subtitler 2021
 sultanpos 2024
 sumoco 2019
+sup 2020
 superpaper 2022
 supertag 2021
 svelte-electron 2022
@@ -856,7 +875,9 @@ taskizer 2020
 tastee-ui 2018
 tb 2024
 tc 2020
+teledrive 2020
 tere 2024
+terminalos-sim 2024
 teslacam-browser 2020
 textnote 2023
 textosaurus 2019
@@ -884,8 +905,11 @@ toipe 2024
 tomatox 2021
 tonuino-toolbox 2020
 torrenttools 2021
+toru 2024
 translatium 2022
+transmissionic 2023
 triagem-touch 2024
+trinity-desktop 2021
 tt 2020
 tts-now 2022
 ttth 2021
@@ -898,6 +922,7 @@ tuxplorer 2024
 t.viewer 2021
 twake 2022
 tweaksophia 2019
+tweet-tray 2019
 twetter 2019
 twitch-wrapper 2019
 typioca 2024
@@ -921,6 +946,7 @@ vechain 2022
 verto 2019
 via 2023
 vidcutter 2021
+vigad 2023
 vimeo-dl 2023
 viper-browser 2021
 vipster 2020
@@ -943,8 +969,11 @@ wallettech 2019
 wasistlos 2024
 watchflower 2024
 watchit 2024
+weatherdump 2019
 webamp 2018
 webdesktop 2019
+webkitty 2023
+webrecorder 2020
 weektodo 2024
 westeroscraftlauncher 2020
 wethr 2021
@@ -957,6 +986,7 @@ wick-editor 2020
 windows2usb 2022
 wine32-deploy 2021
 wishdemo 2019
+wives 2023
 wiznoteplus 2023
 wkp 2022
 wled-gui 2021
@@ -978,6 +1008,7 @@ xdg-ninja 2024
 xelfviewer 2023
 xilinota 2024
 x-loc 2019
+x-pixiv 2023
 xplist 2022
 xtuber 2024
 yaf 2022
@@ -995,6 +1026,7 @@ yuview 2023
 zap 2023
 zapdesktop 2023
 zegarek 2020
+zenroomstudio 2018
 zfxtop 2023
 znax 2023
 zograscope 2023
