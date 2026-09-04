@@ -53,7 +53,7 @@
 ◆ altrady : Altrady Crypto Trading Terminal.
 ◆ altus : Client for WhatsApp Web with themes & multiple account support.
 ◆ alvr : Stream VR games from your PC to your headset via Wi-Fi.
-◆ am-gui : AM-GUI is a graphical Front for AM.
+◆ am-gui : A simple, experimental graphical frontend for AM.
 ◆ amarok : Unofficial, powerful music player that lets you rediscover your music.
 ◆ amazingmarvin : Incorporates principles from behavioral psychology.
 ◆ amber : Amber Video Editor — free open-source non-linear video editor.
@@ -145,6 +145,7 @@
 ◆ atomicwallet : Atomic vue-electron.
 ◆ audacious : Unofficial. An open source audio and music player, descendant of XMMS.
 ◆ audacity : Multiplatform Audio Editor.
+◆ audacity-dev : Multiplatform Audio Editor (development build).
 ◆ audacity-enhanced : Unofficial, multiplatform Audio Editor.
 ◆ audapolis : An editor for spoken-word audio with automatic transcription.
 ◆ audio-sharing : Unofficial. Share audio from the desktop on local network using RTSP protocol.
@@ -934,7 +935,6 @@
 ◆ gitjournal : Mobile first Note Taking integrated with Git.
 ◆ gitkraken : GitKraken Client including an intuitive GUI & powerful CLI.
 ◆ gitlight : GitHub & GitLab notifications on your desktop.
-◆ gitnote : A modern note taking app based on GIT.
 ◆ gitqlient : Multi-platform Git client written with Qt.
 ◆ gittyup : GUI Git client designed to help you understand and manage your source code history.
 ◆ gl-warp2mp4 : Utility to pre-warp a movie similar to TGAWarp.
@@ -1835,6 +1835,7 @@
 ◆ pinokio : AI Browser.
 ◆ pinta : Unofficial, Simple GTK Paint Program clone of Paint.Net 3.0.
 ◆ pinta-gtk3 : Unofficial, Simple GTK Paint Program clone of Paint.Net 3.0 (GTK3 Version).
+◆ pixelflasher : An application to flash (update) Pixel™ phones (possibly all Google™ made phones/tablets, YMMV.
 ◆ pixelhopper : Animated GIF player for Linux (X11).
 ◆ pixelpulse2 : Pixelpulse2 is a user interface for analog systems exploration.
 ◆ pixsrt : Pixel sorter.
@@ -1853,6 +1854,7 @@
 ◆ playbox : An audio playback system for the live production industry.
 ◆ playerctl : Unofficial, MPRIS media player command-line controller.
 ◆ playme : Elegant YouTube Music desktop app.
+◆ playtorrio : All-in-One Media Streaming — Movies, Series, Manga, Audiobooks, and Music.
 ◆ playyourdamnturn : Desktop Client to assist with playing your damn turns.
 ◆ plebchan : A GUI for plebbit similar to 4chan.
 ◆ plex : The ultimate home theater experience.
@@ -2019,6 +2021,7 @@
 ◆ rabix-composer : A desktop IDE for working with Common Workflow Language.
 ◆ radioit : Automation software for Radios.
 ◆ radix-wallet : Radix DLT desktop wallet.
+◆ radmin-vpn : Run Radmin VPN on Linux via Wine — custom driver, TAP bridge, zero packet loss.
 ◆ rainbow-board : 22nd Century Whiteboard App.
 ◆ rambox : Free and Open Source messaging and emailing app.
 ◆ rapidraw : A beautiful, non-destructive, and GPU-accelerated RAW image editor built with performance in mind.
@@ -2239,6 +2242,7 @@
 ◆ sioyek : PDF viewer designed for reading research papers and technical books.
 ◆ sipgate-softphone : The sipgate softphone is developed directly by sipgate.
 ◆ siyuan : A local-first personal knowledge management system.
+◆ sklauncher : Secure and modern Minecraft Launcher.
 ◆ skype : Unofficial. VoIP-based videoconferencing, voice calls and instant messaging app.
 ◆ slack : Unofficial AppImage of Slack.
 ◆ slackbackup : An app to archive Slack messages.
@@ -2699,6 +2703,7 @@
 ◆ wine-stable : Unofficial. Compatibility layer to run x86_64 Windows programs, Stable.
 ◆ wine-staging : Unofficial. Compatibility layer to run x86_64 Windows programs, Staging.
 ◆ wine-staging-ge-proton : Unofficial. Run x86_64 Windows programs, Staging GE Proton.
+◆ wine32-cli : Unofficial WINE Anylinux AppImage for 32 bit CLI windows apps.
 ◆ wine32-deploy : Tool for creating AppImages for 32-bit Microsoft Windows apps.
 ◆ winrar : Unofficial, data compression, encryption and archiving tool.
 ◆ wipeout-rewrite : Unofficial, re-implementation of the 1995 PSX game wipEout.
