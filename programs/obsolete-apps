@@ -118,7 +118,6 @@ carpenters 2020
 cask 2024
 casm 2021
 casterr 2024
-castersoundboard 2019
 cavoke 2022
 celeste64 2024
 cerebral-debugger 2019
@@ -231,6 +230,7 @@ elzabrowser 2021
 embedded-ide 2020
 emoji-keyboard 2022
 encryptpad 2024
+enjoy-player 2024
 enoseannotator 2021
 enve 2022
 envkey 2023
@@ -239,8 +239,8 @@ eplee 2019
 erscaffold 2019
 eternal-lands 2024
 etherealengine-cc 2024
-etichetta 2024
 evalit 2024
+eve-intel-checker 2024
 everinst 2019
 evoplex 2018
 excel-parser-processor 2022
@@ -356,6 +356,7 @@ hexoclient 2020
 hexoeditor 2018
 hidpi-fixer 2023
 hilbish 2024
+hoerbert-software 2024
 houdoku 2024
 hpack 2019
 htmldoc 2018
@@ -444,7 +445,6 @@ local-browser 2019
 lofi 2024
 loginized 2020
 looofix 2022
-love 2024
 luna 2020
 m 2020
 macchina 2024
@@ -502,7 +502,6 @@ monit 2023
 moniteur-admin 2020
 monokle 2024
 mood-fi 2024
-moonlight 2024
 moonplayer 2023
 moose 2020
 movie-monad 2018
@@ -690,6 +689,7 @@ qppcad 2021
 qr-code-generator 2019
 qrscan 2023
 qsdrswr 2018
+qspider 2024
 qtads 2023
 qtalarm 2019
 qtchan 2018
@@ -710,6 +710,7 @@ rasterview 2018
 rbdl-toolkit 2022
 rbdoom-3 2024
 rclone-browser 2020
+react-carplay 2024
 realm-studio 2024
 rebaslight 2023
 record-compare 2019
@@ -725,6 +726,7 @@ roborock-control-center 2020
 rocketfetch 2024
 roloviewer 2018
 rpan-studio 2021
+rsprox 2024
 rtneuron 2019
 rubikscube 2019
 runanode 2019
@@ -911,6 +913,8 @@ unishellect 2022
 unreel 2018
 unveil 2020
 unyo 2024
+unyo-app 2024
+up2b 2024
 updatedeployqt 2019
 upnotes 2022
 uwufetch 2023
@@ -965,7 +969,6 @@ wkp 2022
 wled-gui 2021
 woke 2019
 wonderwall 2022
-wootility 2024
 wooting-analog-midi 2022
 wootomation 2024
 wrapbox 2019
